@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Algorithm/Baekjoon-Algorithm/Stack/1874_stackSequence.h
+iostream
+-
+string
+-
+stack
+-
+iostream
+-
+algorithm
+-
+stack
+-
+vector
+-
+
+D:/Algorithm/test.cpp
+iostream
+-
+Baekjoon-Algorithm/Stack/1874_stackSequence.h
+D:/Algorithm/Baekjoon-Algorithm/Stack/1874_stackSequence.h
+
