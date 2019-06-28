@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Baekjoon-Algorithm/Stack/1874_stackSequence.h"
+#include "Baekjoon-Algorithm/Stack/1725_Histogram.h"
 
 int main() {
-    solve_1874();
+    solve_1725();
 }

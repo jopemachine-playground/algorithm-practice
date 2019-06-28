@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/Algorithm/Baekjoon-Algorithm/Stack/1874_stackSequence.h
+D:/Algorithm/Baekjoon-Algorithm/Stack/3986_Goodword.h
 iostream
 -
 string
@@ -25,6 +25,6 @@ vector
 D:/Algorithm/test.cpp
 iostream
 -
-Baekjoon-Algorithm/Stack/1874_stackSequence.h
-D:/Algorithm/Baekjoon-Algorithm/Stack/1874_stackSequence.h
+Baekjoon-Algorithm/Stack/3986_Goodword.h
+D:/Algorithm/Baekjoon-Algorithm/Stack/3986_Goodword.h
 
