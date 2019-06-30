@@ -1,6 +1,7 @@
 #include <iostream>
-#include "Baekjoon-Algorithm/Stack/1725_Histogram.h"
 
-int main() {
-    solve_1725();
+#include "Baekjoon-Algorithm/Dynamic Programming/2193.h";
+
+int main(){
+    solve_2193();
 }

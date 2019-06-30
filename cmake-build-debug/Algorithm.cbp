@@ -82,6 +82,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Dynamic Programming/1003_Fibonacci.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Dynamic Programming/2193.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Dynamic Programming/[F]9095.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Greedy Algorithm/1931_MeetingRoom.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Math/1000.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Math/1001.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Math/1008.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Math/2997.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Queue/[Unsolved]2905_paintPlane.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Sort/[F]1377_bubbleSort.h">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="D:/Algorithm/test.cpp">
 			<Option target="Algorithm"/>
 		</Unit>

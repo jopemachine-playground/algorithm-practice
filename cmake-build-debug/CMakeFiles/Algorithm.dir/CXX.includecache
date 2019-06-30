@@ -6,25 +6,17 @@
 
 #IncludeRegexTransform: 
 
-D:/Algorithm/Baekjoon-Algorithm/Stack/3986_Goodword.h
-iostream
--
-string
--
-stack
--
+D:/Algorithm/Baekjoon-Algorithm/Dynamic Programming/2193.h
 iostream
 -
 algorithm
 -
-stack
--
-vector
+array
 -
 
 D:/Algorithm/test.cpp
 iostream
 -
-Baekjoon-Algorithm/Stack/3986_Goodword.h
-D:/Algorithm/Baekjoon-Algorithm/Stack/3986_Goodword.h
+Baekjoon-Algorithm/Dynamic Programming/2193.h
+D:/Algorithm/Baekjoon-Algorithm/Dynamic Programming/2193.h
 
