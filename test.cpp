@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "Baekjoon-Algorithm/Dynamic Programming/2193.h";
+#include "Self-Made/Data-Structure/Sort/InsertionSort.h"
 
 int main(){
-    solve_2193();
+    test_insertionSort();
 }

@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-D:/Algorithm/Baekjoon-Algorithm/Dynamic Programming/2193.h
+D:/Algorithm/Self-Made/Data-Structure/Sort/InsertionSort.h
 iostream
 -
-algorithm
--
-array
--
+../Utility.h
+D:/Algorithm/Self-Made/Data-Structure/Utility.h
+
+D:/Algorithm/Self-Made/Data-Structure/Utility.h
 
 D:/Algorithm/test.cpp
 iostream
 -
-Baekjoon-Algorithm/Dynamic Programming/2193.h
-D:/Algorithm/Baekjoon-Algorithm/Dynamic Programming/2193.h
+Self-Made/Data-Structure/Sort/InsertionSort.h
+D:/Algorithm/Self-Made/Data-Structure/Sort/InsertionSort.h
 
