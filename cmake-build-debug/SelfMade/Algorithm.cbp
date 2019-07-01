@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Algorithm/Algorithm-DS-Practice/Algorithms/Shortest-Path/Dijkstra.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Graph/GraphByMatrix.h">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Dynamic Programming/1003_Fibonacci.h">
 			<Option target="Algorithm"/>
 		</Unit>

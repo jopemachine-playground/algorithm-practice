@@ -16,20 +16,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29261a73-88b5-4e4d-af78-d81f700ff407" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Recursion/[F]11729_top-of-hanoi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Algorithms/Shortest-Path/Dijkstra.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Graph/GraphByMatrix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/MockClass.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Divide and Conquer/11729_top-of-hanoi.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Bag/ArrayBag.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Bag/ArrayBag.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Bag/LinkedBag.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Bag/LinkedBag.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/List/ArrayList.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/ArrayList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/List/CircularDoubleLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/CircularDoubleLinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/List/DoubleLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/DoubleLinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/List/InsertSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/InsertSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/List/SingleLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/SingleLinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/List/SkipList.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/SkipList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/MockClass.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Queue/ArrayListQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Queue/ArrayListQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Queue/ArrayQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Queue/ArrayQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Queue/LinkedListQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Queue/LinkedListQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Queue/LinkedQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Queue/LinkedQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Queue/PriorityQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Queue/PriorityQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Search/BinarySearch.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Search/BinarySearch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Search/LinearSearch.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Search/LinearSearch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Set/ArraySet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Set/ArraySet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Set/HashSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Set/HashSet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Set/TreeSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Set/TreeSet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Sort/BubbleSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/BubbleSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Sort/BucketSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/BucketSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Sort/HeapSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/HeapSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Sort/InsertionSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/InsertionSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Sort/MergeSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/MergeSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Sort/QuickSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/QuickSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Sort/RadixSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/RadixSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Sort/SelectionSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/SelectionSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Sort/ShellSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/ShellSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Stack/ArrayListStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Stack/ArrayListStack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Stack/ArrayStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Stack/ArrayStack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Stack/LinkedListStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Stack/LinkedListStack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Stack/LinkedStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Stack/LinkedStack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Tree/ArrayBinaryTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Tree/ArrayBinaryTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Tree/BinarySearchTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Tree/BinarySearchTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Tree/TreeMap.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Tree/TreeMap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Self-Made/Data-Structure/Utility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Utility.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/test.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/test.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/test.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SelfMade/Algorithm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SelfMade/Algorithm.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -60,15 +94,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
@@ -76,6 +101,99 @@
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Algorithms/Shortest-Path/Dijkstra.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#77#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1260_dfsAndBfs.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/MockClass.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Utility.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#21#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/String process/10988_palindrome.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Bag/ArrayBag.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#79#125#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Bag/LinkedBag.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/2667_floodFillWithDFS.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1178">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/11403_searchPath.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="988">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -127,17 +245,21 @@
         <option value="$PROJECT_DIR$/Self-Made/Data-Structure/List/SingleLinkedList.h" />
         <option value="$PROJECT_DIR$/Self-Made/Data-Structure/Queue/PriorityQueue.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/test.cpp" />
         <option value="$PROJECT_DIR$/Self-Made/Data-Structure/Sort/InsertionSort.h" />
         <option value="$PROJECT_DIR$/Self-Made/Data-Structure/Sort/SelectionSort.h" />
+        <option value="$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1260_dfsAndBfs.h" />
+        <option value="$PROJECT_DIR$/Self-Made/Data-Structure/MockClass.h" />
+        <option value="$PROJECT_DIR$/Self-Made/Data-Structure/Graph/GraphByMatrix.h" />
+        <option value="$PROJECT_DIR$/Self-Made/Algorithms/Shortest-Path/Dijkstra.h" />
+        <option value="$PROJECT_DIR$/test.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="y" value="78" />
+    <option name="x" value="-93" />
+    <option name="y" value="280" />
     <option name="width" value="1462" />
-    <option name="height" value="980" />
+    <option name="height" value="919" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -147,6 +269,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,13 +279,23 @@
             </path>
             <path>
               <item name="SelfMade/Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm-DS-Practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelfMade/Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm-DS-Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelfMade/Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,29 +352,32 @@
       <workItem from="1561894343110" duration="948000" />
       <workItem from="1561900486611" duration="77000" />
       <workItem from="1561900574532" duration="1243000" />
+      <workItem from="1561901970885" duration="17000" />
+      <workItem from="1561938788544" duration="13081000" />
+      <workItem from="1561954406800" duration="659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60320000" />
+    <option name="totallyTimeSpent" value="74077000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="78" width="1462" height="980" extended-state="0" />
+    <frame x="-93" y="280" width="1462" height="919" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6985816" visible="true" weight="0.19329529" />
-      <window_info id="Structure" order="1" sideWeight="0.30141845" side_tool="true" visible="true" weight="0.19329529" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7363057" visible="true" weight="0.2018545" />
+      <window_info id="Structure" order="1" sideWeight="0.26369426" side_tool="true" visible="true" weight="0.2018545" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24349882" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28605202" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25605094" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.13248408" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.35224587" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.38828632" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.30227518" />
@@ -254,103 +390,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="adjacentVertices[0]" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Math/1001.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Math/1008.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/4307_ant.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="60" selection-start-line="60" selection-end-line="61" selection-end-column="60" />
-          <folding>
-            <element signature="e#131#150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Stack/[F]1725_Histogram.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="2" />
-          <folding>
-            <element signature="e#616#635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1003_Fibonacci.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#113#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1463.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/[F]9095.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="e#714#733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Math/2997.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Queue/[Unsolved]2905_paintPlane.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Queue/1966_printerQueue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#71#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Sort/[F]1377_bubbleSort.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" selection-start-line="4" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1012_dfsWithStack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -384,7 +435,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Sort/BubbleSort.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/BubbleSort.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
@@ -395,36 +446,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Sort/BucketSort.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/BucketSort.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Sort/HeapSort.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/HeapSort.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Sort/MergeSort.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/MergeSort.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Sort/QuickSort.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/QuickSort.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Sort/RadixSort.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/RadixSort.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Sort/ShellSort.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/ShellSort.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Stack/ArrayListStack.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Stack/ArrayStack.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Stack/ArrayStack.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
@@ -434,10 +482,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Stack/LinkedListStack.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Stack/LinkedListStack.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Stack/LinkedStack.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Stack/LinkedStack.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
@@ -448,14 +496,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Tree/ArrayBinaryTree.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Tree/ArrayBinaryTree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Tree/BinarySearchTree.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Tree/BinarySearchTree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2071">
           <caret line="134" column="17" lean-forward="true" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
@@ -466,96 +514,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Tree/TreeMap.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Tree/TreeMap.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Set/ArraySet.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Set/ArraySet.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Search/BinarySearch.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Search/BinarySearch.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/List/DoubleLinkedList.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/DoubleLinkedList.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Bag/ArrayBag.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Bag/LinkedBag.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/List/ArrayList.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/ArrayList.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/List/CircularDoubleLinkedList.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/CircularDoubleLinkedList.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/List/InsertSort.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/InsertSort.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/List/SingleLinkedList.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/SingleLinkedList.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/List/SkipList.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/SkipList.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Queue/ArrayListQueue.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Queue/ArrayListQueue.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Queue/ArrayQueue.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Queue/ArrayQueue.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Queue/LinkedListQueue.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Queue/LinkedListQueue.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Queue/LinkedQueue.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Queue/LinkedQueue.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Queue/PriorityQueue.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Queue/PriorityQueue.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Utility.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#21#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Sort/InsertSort.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Sort/SelectionSort.h">
+    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Sort/InsertSort.h" />
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/SelectionSort.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
@@ -565,7 +591,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/Sort/InsertionSort.h">
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/InsertionSort.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
@@ -575,17 +601,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Self-Made/Data-Structure/MockClass.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Stack/ArrayListStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1012_dfsWithStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="e#71#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Graph/GraphByMatrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+          <folding>
+            <element signature="e#55#74#0" expanded="true" />
+            <element signature="e#231#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_queue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10374">
+          <caret line="546" selection-start-line="546" selection-end-line="546" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4902">
+          <caret line="258" selection-start-line="258" selection-end-line="258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15979">
+          <caret line="841" selection-start-line="841" selection-end-line="841" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1987_Alphabet.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="76" selection-start-line="76" selection-end-line="80" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/2667_floodFillWithDFS.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/11403_searchPath.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Bag/ArrayBag.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#79#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Bag/LinkedBag.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -595,6 +701,50 @@
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/MockClass.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Utility.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#21#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/String process/10988_palindrome.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1260_dfsAndBfs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Algorithms/Shortest-Path/Dijkstra.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#77#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
