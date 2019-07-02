@@ -6,19 +6,17 @@
 
 #IncludeRegexTransform: 
 
-D:/Algorithm/Baekjoon-Algorithm/Dijkstra/1916.h
-algorithm
--
+C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Graph/4963_numberOfIsland.h
 iostream
--
-memory.h
 -
 queue
 -
+memory.h
+-
 
-D:/Algorithm/test.cpp
+C:/Algorithm-DS-Practice/test.cpp
 iostream
 -
-Baekjoon-Algorithm/Dijkstra/1916.h
-D:/Algorithm/Baekjoon-Algorithm/Dijkstra/1916.h
+Baekjoon-Algorithm/Graph/4963_numberOfIsland.h
+C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Graph/4963_numberOfIsland.h
 
