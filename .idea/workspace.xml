@@ -16,20 +16,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29261a73-88b5-4e4d-af78-d81f700ff407" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/2178_maze.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dijkstra/1916.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/11047_coin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/10998.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/10610_30.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/test.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/test.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/SelfMade/Algorithm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SelfMade/Algorithm.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,14 +48,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/BFS/2178_maze.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            <state relative-caret-position="153">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <element signature="e#121#140#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/10610_30.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -129,14 +128,15 @@
         <option value="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/2178_maze.h" />
         <option value="$PROJECT_DIR$/test.cpp" />
         <option value="$PROJECT_DIR$/Baekjoon-Algorithm/Dijkstra/1916.h" />
+        <option value="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/10610_30.h" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-139" />
-    <option name="y" value="201" />
+    <option name="x" value="-24" />
+    <option name="y" value="286" />
     <option name="width" value="1462" />
-    <option name="height" value="978" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -162,6 +162,12 @@
               <item name="SelfMade/Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="Baekjoon-Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelfMade/Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Baekjoon-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Greedy Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SelfMade/Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -234,17 +240,18 @@
       <workItem from="1561957560419" duration="5494000" />
       <workItem from="1562027904773" duration="2308000" />
       <workItem from="1562030227184" duration="2922000" />
+      <workItem from="1562035227902" duration="1235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84801000" />
+    <option name="totallyTimeSpent" value="86036000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-139" y="201" width="1462" height="978" extended-state="0" />
+    <frame x="-24" y="286" width="1462" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7404844" visible="true" weight="0.20756063" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7404844" visible="true" weight="0.2104137" />
       <window_info id="Structure" order="1" sideWeight="0.25951558" side_tool="true" weight="0.15511727" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -277,9 +284,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/RadixSort.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/ShellSort.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -627,11 +631,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/BFS/2178_maze.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        <state relative-caret-position="153">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
             <element signature="e#121#140#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/10610_30.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
