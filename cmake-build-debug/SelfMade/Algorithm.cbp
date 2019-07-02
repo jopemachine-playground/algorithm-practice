@@ -88,6 +88,12 @@
 		<Unit filename="D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Graph/GraphByMatrix.h">
 			<Option target="Algorithm"/>
 		</Unit>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/BFS/2178_maze.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Dijkstra/1916.h">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Dynamic Programming/1003_Fibonacci.h">
 			<Option target="Algorithm"/>
 		</Unit>
@@ -95,6 +101,9 @@
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Dynamic Programming/[F]9095.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Greedy Algorithm/11047_coin.h">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Greedy Algorithm/1931_MeetingRoom.h">
@@ -107,6 +116,9 @@
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Math/1008.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Math/10998.h">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Math/2997.h">

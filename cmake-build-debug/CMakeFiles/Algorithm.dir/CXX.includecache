@@ -6,23 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/Algorithm/Algorithm-DS-Practice/Algorithms/Shortest-Path/Dijkstra.h
-queue
+D:/Algorithm/Baekjoon-Algorithm/Dijkstra/1916.h
+algorithm
 -
-../../Data-Structure/Graph/GraphByMatrix.h
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Graph/GraphByMatrix.h
-
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Graph/GraphByMatrix.h
 iostream
 -
-vector
--
 memory.h
+-
+queue
 -
 
 D:/Algorithm/test.cpp
 iostream
 -
-Algorithm-DS-Practice/Algorithms/Shortest-Path/Dijkstra.h
-D:/Algorithm/Algorithm-DS-Practice/Algorithms/Shortest-Path/Dijkstra.h
+Baekjoon-Algorithm/Dijkstra/1916.h
+D:/Algorithm/Baekjoon-Algorithm/Dijkstra/1916.h
 
