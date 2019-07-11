@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/Algorithm/Baekjoon-Algorithm/Dijkstra/1916.h
-algorithm
+D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Sort/MergeSort.h
+memory
 -
 iostream
 -
-memory.h
--
-queue
--
+../Utility.h
+D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Utility.h
+
+D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Utility.h
 
 D:/Algorithm/test.cpp
 iostream
 -
-Baekjoon-Algorithm/Dijkstra/1916.h
-D:/Algorithm/Baekjoon-Algorithm/Dijkstra/1916.h
+Algorithm-DS-Practice/Data-Structure/Sort/MergeSort.h
+D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Sort/MergeSort.h
 

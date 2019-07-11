@@ -1,9 +1,9 @@
 #include <iostream>
 
-// #include "Algorithm-DS-Practice/Algorithms/Shortest-Path/Dijkstra.h"
-#include "Baekjoon-Algorithm/Dijkstra/1916.h"
+// #include "Baekjoon-Algorithm/Dijkstra/1916.h"
+#include "Algorithm-DS-Practice/Data-Structure/Sort/MergeSort.h"
 
 int main() {
-    // test_Dijkstra();
-    solve_1916();
+    // solve_1916();
+    test_mergeSort();
 }

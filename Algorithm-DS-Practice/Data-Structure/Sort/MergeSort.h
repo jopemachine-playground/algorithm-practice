@@ -3,51 +3,69 @@
 #include <iostream>
 #include "../Utility.h"
 
-template<class V, class T = V[], class Allocator = std::allocator<V>>
-void merge(T a, T b, int (*comparator)(void* a, void* b));
+// 아래 MergeSort는 C, C++로 배우는 자료구조론의 MergeSort 파트를 공부하며 작성한 것임
 
 template<class V, class T = V[], class Allocator = std::allocator<V>>
-void split(T collection, int length, int (*comparator)(void* a, void* b)) {
+void merge(T collection, int first, int middle, int last, int (*comparator)(void* a, void* b)){
 
-	if (length <= 1) { return; }
+    Allocator* allocator = new Allocator();
+    T temp = allocator->allocate(last - first + 1);
 
-	// 짝수일 땐, 정확하게 반으로 갈라지고,
-	// 홀수일 땐, 오른쪽 배열에 한 개가 더 붙은 형태가 된다.
-	int left_length = length / 2;
-	int right_length = (length % 2 == 0) ? left_length : left_length + 1;
+    int leftFirst = first;
+    int leftLast = middle;
 
-	Allocator allocator;
+    int rightFirst = middle + 1;
+    int rightLast = last;
 
-	// 왼쪽 배열과 오른쪽 배열에 데이터 복사
-	V* left = allocator.allocate(left_length);
-	V* right = allocator.allocate(right_length);
+    int index = leftFirst;
 
-	// 배열 데이터 복사
-	for (int i = 0; i < left_length; i++) {
-		left[i] = collection[i];
-	}
-	for (int i = 0; i < right_length; i++) {
-		right[i] = collection[left_length + i];
-	}
+    while(leftFirst <= leftLast && rightFirst <= rightLast){
 
-	// 각 배열에 대한 merge 호출로 split
-	split<V>(left, left_length, comparator);
-	split<V>(right, right_length, comparator);
+        if(collection[leftFirst] < collection[rightFirst]){
+            temp[index] = collection[leftFirst];
+            ++leftFirst;
+        }
+        else {
+            temp[index] = collection[rightFirst];
+            ++rightFirst;
+        }
+        ++index;
+    }
 
-	//split(right, right_length, comparator);
-	merge<V>(left, right, comparator);
+    while(leftFirst <= leftLast){
+        temp[index] = collection[leftFirst];
+        ++leftFirst;
+        ++index;
+    }
+
+    while(rightFirst <= rightLast){
+        temp[index] = collection[rightFirst];
+        ++rightFirst;
+        ++index;
+    }
+
+    for(index = first; index <= last; ++index){
+        collection[index] = temp[index];
+    }
+}
+
+// comparator(&collection[first], &collection[last]) == 1
+template<class V, class T = V[], class Allocator = std::allocator<V>>
+void split(T collection, int first, int last, int (*comparator)(void* a, void* b)) {
+
+    // Base Case인 경우 아무 일도 하지 않고 리턴
+    if(first < last){
+        int middlePivot = (first + last) / 2;
+        split<V>(collection, first, middlePivot, comparator);
+        split<V>(collection, middlePivot + 1, last, comparator);
+        merge<V>(collection, first, middlePivot, last, comparator);
+    }
 
 }
 
 template<class V, class T = V[], class Allocator = std::allocator<V>>
 void mergeSort(T collection, int length, int (*comparator)(void* a, void* b)) {
-	split<V>(collection, length, comparator);
-}
-
-template<class V, class T, class Allocator = std::allocator<V>>
-void merge(T a, T b, int (*comparator)(void* a, void* b)) {
-
-
+	split<V>(collection, 0, length - 1, comparator);
 }
 
 void test_mergeSort() {
