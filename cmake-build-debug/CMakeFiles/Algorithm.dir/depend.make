@@ -4,4 +4,3 @@
 CMakeFiles/Algorithm.dir/test.cpp.obj: ../Algorithm-DS-Practice/Data-Structure/Sort/MergeSort.h
 CMakeFiles/Algorithm.dir/test.cpp.obj: ../Algorithm-DS-Practice/Data-Structure/Utility.h
 CMakeFiles/Algorithm.dir/test.cpp.obj: ../test.cpp
-
