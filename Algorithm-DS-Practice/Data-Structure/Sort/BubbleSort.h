@@ -3,8 +3,6 @@
 #include <iostream>
 #include "../Utility.h"
 
-#define DEBUG_SORT
-
 // T가 [], <, > 가 정의된 collection 이어야 작동한다
 template<class T>
 void bubbleSort(T collection, int length, int (*comparator)(void* a, void* b)) {

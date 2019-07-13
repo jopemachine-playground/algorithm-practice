@@ -4,9 +4,9 @@
 
 #IncludeRegexComplain: ^$
 
-#IncludeRegexTransform:
+#IncludeRegexTransform: 
 
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Sort/MergeSort.h
+D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Sort/QuickSort.h
 memory
 -
 iostream
@@ -16,8 +16,9 @@ D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Utility.h
 
 D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Utility.h
 
-C:/Algorithm-DS-Practice/test.cpp
+D:/Algorithm/test.cpp
 iostream
 -
-Algorithm-DS-Practice/Data-Structure/Sort/MergeSort.h
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Sort/MergeSort.h
+Algorithm-DS-Practice/Data-Structure/Sort/QuickSort.h
+D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Sort/QuickSort.h
+

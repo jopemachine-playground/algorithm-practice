@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Algorithm-DS-Practice/cmake-build-debug"/>
+				<Option working_dir="D:/Algorithm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Algorithm">
-				<Option output="C:/Algorithm-DS-Practice/cmake-build-debug/Algorithm.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Algorithm-DS-Practice/cmake-build-debug"/>
+				<Option output="D:/Algorithm/cmake-build-debug/Algorithm.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Algorithm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Algorithm/fast">
-				<Option output="C:/Algorithm-DS-Practice/cmake-build-debug/Algorithm.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Algorithm-DS-Practice/cmake-build-debug"/>
+				<Option output="D:/Algorithm/cmake-build-debug/Algorithm.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Algorithm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,94 +55,94 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Algorithm-DS-Practice/cmake-build-debug"/>
+				<Option working_dir="D:/Algorithm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Algorithm-DS-Practice/cmake-build-debug"/>
+				<Option working_dir="D:/Algorithm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Algorithm-DS-Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Algorithm-DS-Practice/Algorithm-DS-Practice/Algorithms/Shortest-Path/Dijkstra.h">
+		<Unit filename="D:/Algorithm/Algorithm-DS-Practice/Algorithms/Shortest-Path/Dijkstra.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Algorithm-DS-Practice/Data-Structure/Graph/GraphByMatrix.h">
+		<Unit filename="D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Graph/GraphByMatrix.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/BFS/2178_maze.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/BFS/2178_maze.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dijkstra/1753.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Dijkstra/1753.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dijkstra/1916.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Dijkstra/1916.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dynamic Programming/1003_Fibonacci.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Dynamic Programming/1003_Fibonacci.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dynamic Programming/2193.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Dynamic Programming/2193.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dynamic Programming/[F]9095.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Dynamic Programming/[F]9095.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Graph/4963_numberOfIsland.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Graph/4963_numberOfIsland.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Greedy Algorithm/10610_30.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Greedy Algorithm/10610_30.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Greedy Algorithm/11047_coin.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Greedy Algorithm/11047_coin.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Greedy Algorithm/1931_MeetingRoom.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Greedy Algorithm/1931_MeetingRoom.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Math/1000.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Math/1000.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Math/1001.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Math/1001.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Math/1008.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Math/1008.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Math/10998.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Math/10998.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Math/2997.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Math/2997.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Queue/[Unsolved]2905_paintPlane.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Queue/[Unsolved]2905_paintPlane.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Sort/[F]1377_bubbleSort.h">
+		<Unit filename="D:/Algorithm/Baekjoon-Algorithm/Sort/[F]1377_bubbleSort.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/test.cpp">
+		<Unit filename="D:/Algorithm/test.cpp">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/CMakeLists.txt">
+		<Unit filename="D:/Algorithm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

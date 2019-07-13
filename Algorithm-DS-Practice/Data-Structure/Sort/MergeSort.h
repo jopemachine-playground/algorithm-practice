@@ -49,7 +49,6 @@ void merge(T collection, int first, int middle, int last, int (*comparator)(void
     }
 }
 
-// comparator(&collection[first], &collection[last]) == 1
 template<class V, class T = V[], class Allocator = std::allocator<V>>
 void split(T collection, int first, int last, int (*comparator)(void* a, void* b)) {
 
