@@ -6,12 +6,14 @@
 
 #IncludeRegexTransform: 
 
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Sort/RadixSort.h
+D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Sort/BucketSort.h
 memory
 -
 iostream
 -
 cmath
+-
+list
 -
 ../Utility.h
 D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Utility.h
@@ -21,6 +23,6 @@ D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Utility.h
 D:/Algorithm/test.cpp
 iostream
 -
-Algorithm-DS-Practice/Data-Structure/Sort/RadixSort.h
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Sort/RadixSort.h
+Algorithm-DS-Practice/Data-Structure/Sort/BucketSort.h
+D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Sort/BucketSort.h
 
