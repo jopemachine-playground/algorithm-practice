@@ -15,6 +15,10 @@ const int ArrayList_Default_MAX = 100;
 template<class T, class Allocator = std::allocator<T>>
 class ArrayList {
 public:
+
+    T operator[](const int index){
+        this->get(index);
+    }
 	
 	ArrayList() {
 		count = 0;
@@ -40,9 +44,50 @@ public:
 	~ArrayList() {
 		delete arrayList;
 		arrayList = nullptr;
-	};
+    };
+
+    class iterator{
+
+    public:
+
+        // 포인터를 1 앞으로 옮김
+        iterator operator++() {
+            ptr++;
+            return this;
+        }
+        // 역참조 연산 재정의
+        T& operator*(){
+            return *ptr;
+        }
+
+        iterator(){
+            ptr = nullptr;
+        }
+
+        iterator(T*& _ptr) {
+            ptr = _ptr;
+        }
+
+        iterator(T& _ptr) {
+            ptr = &_ptr;
+        }
+
+    private:
+
+        T* ptr;
+
+    };
+
+    iterator begin() {
+        return (*new iterator(arrayList[0]));
+    }
+
+    iterator end(){
+        return (*new iterator(arrayList[count-1]));
+    }
 
 	T get(int index) {
+
 		if (index > count) {
 			throw std::out_of_range("range out of error");
 		}
@@ -178,7 +223,6 @@ void ArrayList_test() {
 	MockClass k2(6);
 	MockClass k3(5);
 
-
 	ListStack_itemStack.add(k1);
 	ListStack_itemStack.add(k2);
 	ListStack_itemStack.add(k3);
@@ -220,5 +264,14 @@ void ArrayList_test() {
 		std::cout << ListStack_itemInt.get(i) << std::endl;
 	}
 
+	// Iterator Test
+	ArrayList<int>::iterator iterBegin = ListStack_itemInt.begin();
+	std::cout << *(iterBegin) << std::endl;
+
+    ArrayList<int>::iterator iterEnd = ListStack_itemInt.end();
+    std::cout << *(iterEnd) << std::endl;
+
+    ArrayList<MockClass>::iterator iterBegin2 = ListHeap_itemStack->begin();
+    std::cout << (*iterBegin2).k << std::endl;
 
 }

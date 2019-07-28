@@ -6,23 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Sort/BucketSort.h
+D:/Algorithm/Algorithm-DS-Practice/Data-Structure/List/ArrayList.h
 memory
 -
 iostream
 -
-cmath
--
-list
--
-../Utility.h
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Utility.h
+../MockClass.h
+D:/Algorithm/Algorithm-DS-Practice/Data-Structure/MockClass.h
 
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Utility.h
+D:/Algorithm/Algorithm-DS-Practice/Data-Structure/MockClass.h
 
 D:/Algorithm/test.cpp
 iostream
 -
-Algorithm-DS-Practice/Data-Structure/Sort/BucketSort.h
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/Sort/BucketSort.h
+Algorithm-DS-Practice/Data-Structure/List/ArrayList.h
+D:/Algorithm/Algorithm-DS-Practice/Data-Structure/List/ArrayList.h
 
