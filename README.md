@@ -1,10 +1,8 @@
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/be9293a02a0f4ed6ad175b2be06f0b91)](https://app.codacy.com/app/jopemachine/Algorithm-DS-Practice?utm_source=github.com&utm_medium=referral&utm_content=jopemachine/Algorithm-DS-Practice&utm_campaign=Badge_Grade_Dashboard)
-
 <h2>Algorithm-DS-Practice</h2>
 학교에서 배우는 자료구조 및 알고리즘을 보충하기 위해 개인적으로 연습한 백준 알고리즘 문제 풀이 및 자료구조 코드.
+<br>
 
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/be9293a02a0f4ed6ad175b2be06f0b91)](https://app.codacy.com/app/jopemachine/Algorithm-DS-Practice?utm_source=github.com&utm_medium=referral&utm_content=jopemachine/Algorithm-DS-Practice&utm_campaign=Badge_Grade_Dashboard)
 
 <h2>Environment</h2>
 
