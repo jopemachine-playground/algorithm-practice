@@ -26,13 +26,10 @@
 - 프로젝트 경로에 한글명이 있으면 빌드되지 않음
 - Run 버튼이 활성화되지 않는다면,  `Tools > CMake > Reload cmake Project` 를 클릭하면 활성화 된다.
 
-
-
-
-
 <hr>
 
 <h3>Data Structure</h3>
+
 * GraphByMatrix
 * ArrayList
 * SingleLinkedList
@@ -43,6 +40,7 @@
 * BinarySearchTree
 
 <h3>Sorting</h3>
+
 * Bubble Sort
 * Selection Sort
 * Insert Sort
@@ -52,4 +50,5 @@
 * Bucket Sort
 
 <h3>Algorithm</h3>
+
 * Dijkstra
