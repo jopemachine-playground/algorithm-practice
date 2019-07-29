@@ -50,39 +50,80 @@ public:
 
     public:
 
-        // 포인터를 1 앞으로 옮김
-        iterator operator++() {
-            ptr++;
-            return this;
+        // iterator + 1;
+        void operator+(const int index) {
+            ptr += index;
         }
-        // 역참조 연산 재정의
-        T& operator*(){
+
+        // iterator - 1;
+        void operator-(const int index) {
+            ptr -= index;
+        }
+
+        // iterator += 1;
+        void operator+=(const int index){
+            ptr += index;
+        }
+
+        // iterator -= 1;
+        void operator-=(const int index){
+            ptr -= index;
+        }
+
+        // ++iterator;
+        void operator++(){
+            ptr++;
+        }
+
+        // iterator++;
+        void operator++(int){
+            ptr++;
+        }
+
+        // --iterator;
+        void operator--(){
+            ptr++;
+        }
+
+        // iterator--;
+        void operator--(int){
+            ptr++;
+        }
+
+        // *iterator;
+        T& operator*() {
             return *ptr;
+        }
+
+        // iterator = right;
+        iterator& operator=(const iterator& iter) {
+            ptr = iter.ptr;
+            return *this;
         }
 
         iterator(){
             ptr = nullptr;
         }
 
-        iterator(T*& _ptr) {
-            ptr = _ptr;
-        }
-
         iterator(T& _ptr) {
             ptr = &_ptr;
         }
-
+        /*
+          iterator(T*& _ptr) {
+            ptr = _ptr;
+          }
+        */
     private:
-
         T* ptr;
-
     };
 
     iterator begin() {
+        if(arrayList == nullptr) throw std::runtime_error("");
         return (*new iterator(arrayList[0]));
     }
 
     iterator end(){
+        if(arrayList == nullptr) throw std::runtime_error("");
         return (*new iterator(arrayList[count-1]));
     }
 
@@ -265,13 +306,24 @@ void ArrayList_test() {
 	}
 
 	// Iterator Test
+
+    std::cout << "#### Iterator Test test case ####" << std::endl;
+
 	ArrayList<int>::iterator iterBegin = ListStack_itemInt.begin();
 	std::cout << *(iterBegin) << std::endl;
+
+    iterBegin += 1;
+    ++iterBegin;
+
+    std::cout << *(iterBegin) << std::endl;
 
     ArrayList<int>::iterator iterEnd = ListStack_itemInt.end();
     std::cout << *(iterEnd) << std::endl;
 
     ArrayList<MockClass>::iterator iterBegin2 = ListHeap_itemStack->begin();
     std::cout << (*iterBegin2).k << std::endl;
+
+    ArrayList<MockClass*>::iterator iterBegin3 = ListHeap_itemHeap->begin();
+    std::cout << (*iterBegin3)->k << std::endl;
 
 }
