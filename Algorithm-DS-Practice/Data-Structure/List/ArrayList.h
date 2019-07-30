@@ -51,43 +51,51 @@ public:
     public:
 
         // iterator + 1;
-        void operator+(const int index) {
+        iterator operator+(const int index) {
             ptr += index;
+            return *this;
         }
 
         // iterator - 1;
-        void operator-(const int index) {
+        iterator operator-(const int index) {
             ptr -= index;
+            return *this;
         }
 
         // iterator += 1;
-        void operator+=(const int index){
+        iterator& operator+=(const int index){
             ptr += index;
+            return *this;
         }
 
         // iterator -= 1;
-        void operator-=(const int index){
+        iterator& operator-=(const int index){
             ptr -= index;
+            return *this;
         }
 
         // ++iterator;
-        void operator++(){
+        iterator& operator++(){
             ptr++;
+            return *this;
         }
 
         // iterator++;
-        void operator++(int){
+        iterator& operator++(int){
             ptr++;
+            return *this;
         }
 
         // --iterator;
-        void operator--(){
-            ptr++;
+        iterator& operator--(){
+            ptr--;
+            return *this;
         }
 
         // iterator--;
-        void operator--(int){
-            ptr++;
+        iterator& operator--(int){
+            ptr--;
+            return *this;
         }
 
         // *iterator;
