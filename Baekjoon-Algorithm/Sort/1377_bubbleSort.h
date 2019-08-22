@@ -12,8 +12,8 @@
 ############################################################################
 */
 
-#ifndef ALGORITHM_F_1377_BUBBLESORT_H
-#define ALGORITHM_F_1377_BUBBLESORT_H
+#ifndef ALGORITHM_1377_BUBBLESORT_H
+#define ALGORITHM_1377_BUBBLESORT_H
 
 #include <iostream>
 
@@ -59,4 +59,4 @@ void solve_1377(){
 
 }
 
-#endif //ALGORITHM_F_1377_BUBBLESORT_H
+#endif //ALGORITHM_1377_BUBBLESORT_H

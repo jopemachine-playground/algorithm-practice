@@ -12,8 +12,8 @@
 ############################################################################
 */
 
-#ifndef ALGORITHM_F_9095_H
-#define ALGORITHM_F_9095_H
+#ifndef ALGORITHM_9095_H
+#define ALGORITHM_9095_H
 
 #pragma once
 // to use unsafe function
@@ -60,6 +60,6 @@ void solve_9095(){
 }
 
 
-#endif //ALGORITHM_F_9095_H
+#endif //ALGORITHM_9095_H
 
 

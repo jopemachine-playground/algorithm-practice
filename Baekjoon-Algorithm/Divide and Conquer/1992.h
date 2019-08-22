@@ -2,8 +2,8 @@
 // Created by wonma on 2019-08-22.
 //
 
-#ifndef ALGORITHM_1930_H
-#define ALGORITHM_1930_H
+#ifndef ALGORITHM_1992_H
+#define ALGORITHM_1992_H
 
 #include <iostream>
 #include <memory.h>
@@ -80,4 +80,4 @@ void solve_1930(){
 
 };
 
-#endif //ALGORITHM_1930_H
+#endif //ALGORITHM_1992_H

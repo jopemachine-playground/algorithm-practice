@@ -12,8 +12,8 @@
 ############################################################################
 */
 
-#ifndef ALGORITHM_UNSOLVED_2905_PAINTPLANE_H
-#define ALGORITHM_UNSOLVED_2905_PAINTPLANE_H
+#ifndef ALGORITHM_2905_PAINTPLANE_H
+#define ALGORITHM_2905_PAINTPLANE_H
 
 #include <iostream>
 #include <string>
@@ -59,4 +59,4 @@ void solve_2905() {
 
 
 
-#endif //ALGORITHM_UNSOLVED_2905_PAINTPLANE_H
+#endif //ALGORITHM_2905_PAINTPLANE_H
