@@ -16,8 +16,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29261a73-88b5-4e4d-af78-d81f700ff407" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Divide and Conquer/2630.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/ArrayList.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/ArrayList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/test.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/test.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,21 +60,94 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="133">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1012_dfsWithStack.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+              <folding>
+                <element signature="e#71#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1260_dfsAndBfs.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/2667_floodFillWithDFS.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/11403_searchPath.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="66" column="50" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Graph/4963_numberOfIsland.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1987_Alphabet.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/ArrayList.h">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Divide and Conquer/2630.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+            <state relative-caret-position="798">
+              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
               <folding>
-                <element signature="e#13#30#0" expanded="true" />
-                <element signature="e#432#478#0" expanded="true" />
+                <element signature="e#94#113#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Dijkstra/1753.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1368">
+              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="60" />
+              <folding>
+                <element signature="e#111#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Dijkstra/1916.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1273">
+              <caret line="67" selection-start-line="67" selection-end-line="67" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -92,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Algorithm/[F]9095.h" />
         <option value="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1003_Fibonacci.h" />
         <option value="$PROJECT_DIR$/Baekjoon-Algorithm/Queue/2905_paintPlane.h" />
         <option value="$PROJECT_DIR$/Baekjoon-Algorithm/Queue/[F]2905_paintPlane.h" />
@@ -137,18 +220,19 @@
         <option value="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/RadixSort.h" />
         <option value="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/BucketSort.h" />
         <option value="$PROJECT_DIR$/Baekjoon-Algorithm/Dijkstra/1753.h" />
-        <option value="$PROJECT_DIR$/test.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/cmake-build-debug/SelfMade/Algorithm.cbp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
         <option value="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
         <option value="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/ArrayList.h" />
+        <option value="$PROJECT_DIR$/test.cpp" />
+        <option value="$PROJECT_DIR$/Baekjoon-Algorithm/Divide and Conquer/2630.h" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-206" />
-    <option name="y" value="208" />
+    <option name="x" value="-41" />
+    <option name="y" value="413" />
     <option name="width" value="1936" />
     <option name="height" value="1070" />
   </component>
@@ -160,6 +244,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,26 +255,12 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm-DS-Practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm-DS-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Data-Structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm-DS-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Data-Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="List" type="462c0819:PsiDirectoryNode" />
+              <item name="Baekjoon-Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,28 +349,33 @@
       <workItem from="1564404288551" duration="172000" />
       <workItem from="1564404468908" duration="604000" />
       <workItem from="1564443830278" duration="1421000" />
+      <workItem from="1564491385980" duration="1788000" />
+      <workItem from="1565086118809" duration="755000" />
+      <workItem from="1565242565490" duration="5803000" />
+      <workItem from="1566087894292" duration="1351000" />
+      <workItem from="1566446327892" duration="2395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130383000" />
+    <option name="totallyTimeSpent" value="142475000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-206" y="208" width="1936" height="1070" extended-state="0" />
+    <frame x="-41" y="413" width="1936" height="1070" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7404844" visible="true" weight="0.17270789" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7404844" visible="true" weight="0.18070363" />
       <window_info id="Structure" order="1" sideWeight="0.25951558" side_tool="true" weight="0.15511727" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.23397435" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38828632" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.19522777" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34924078" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.76759064" weight="0.41025642" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.76759064" weight="0.36984816" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.335141" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -313,66 +389,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1012_dfsWithStack.h</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Graph/4963_numberOfIsland.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="e#163#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Stack/ArrayStack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Utility.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#21#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Set/ArraySet.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Set/HashSet.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Set/TreeSet.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/HeapSort.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/BubbleSort.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/MergeSort.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#26#43#0" expanded="true" />
-            <element signature="e#147#208#0" expanded="true" />
-            <element signature="e#307#368#0" expanded="true" />
-            <element signature="e#729#790#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/QuickSort.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -501,26 +529,6 @@
     <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/MockClass.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Dijkstra/1753.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding>
-            <element signature="e#111#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Graph/GraphByMatrix.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="e#55#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Queue/ArrayQueue.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -633,13 +641,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/CircularDoubleLinkedList.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4370">
@@ -649,11 +650,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/List/ArrayList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+        <state relative-caret-position="2489">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
           <folding>
             <element signature="e#13#30#0" expanded="true" />
             <element signature="e#432#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Graph/GraphByMatrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="e#55#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/BFS/2178_maze.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1012_dfsWithStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          <folding>
+            <element signature="e#71#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1260_dfsAndBfs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/2667_floodFillWithDFS.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/11403_searchPath.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="66" column="50" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Graph/4963_numberOfIsland.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1987_Alphabet.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Dijkstra/1753.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="60" />
+          <folding>
+            <element signature="e#111#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Dijkstra/1916.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" selection-start-line="67" selection-end-line="67" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon-Algorithm/Divide and Conquer/2630.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="e#94#113#0" expanded="true" />
           </folding>
         </state>
       </provider>

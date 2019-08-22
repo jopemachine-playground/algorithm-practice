@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/List/ArrayList.h
-memory
--
+D:/Algorithm/Baekjoon-Algorithm/Divide and Conquer/2630.h
 iostream
 -
-../MockClass.h
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/MockClass.h
-
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/MockClass.h
+memory.h
+-
 
 D:/Algorithm/test.cpp
 iostream
 -
-Algorithm-DS-Practice/Data-Structure/List/ArrayList.h
-D:/Algorithm/Algorithm-DS-Practice/Data-Structure/List/ArrayList.h
+Baekjoon-Algorithm/Divide and Conquer/2630.h
+D:/Algorithm/Baekjoon-Algorithm/Divide and Conquer/2630.h
 
