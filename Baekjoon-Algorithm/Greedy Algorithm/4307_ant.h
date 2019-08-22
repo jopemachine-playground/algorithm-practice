@@ -1,9 +1,32 @@
+/*
+==============================+===============================================================
+@ File Name : 4307_ant.h
+@ Author : jopemachine
+@ Created Date : 2019-06-28, 18:39:12
+@ Desc : 
+@    ê°œë¯¸
+@ Issue : 
+@    2
+@    10 3
+@    2
+@    6
+@    7
+@    214 7
+@    11
+@    12
+@    7
+@    13
+@    176
+@    23
+@    191
+==============================+===============================================================
+*/
 #pragma once
 // to use unsafe function
 #pragma warning(disable: 4996)
 
 /*
-https://dojang.io/mod/page/view.php?id=638 - Äü Á¤·Ä Âü°í
+https://dojang.io/mod/page/view.php?id=638
 */
 
 #include <iostream>

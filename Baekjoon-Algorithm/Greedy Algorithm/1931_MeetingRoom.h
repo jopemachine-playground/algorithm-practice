@@ -1,3 +1,25 @@
+/*
+==============================+===============================================================
+@ File Name : 1931_MeetingRoom.h
+@ Author : jopemachine
+@ Created Date : 2019-06-30, 10:37:49
+@ Desc : 
+@    íšŒì˜ì‹¤ë°°ì •
+@ Issue : 
+@    11
+@    1 4
+@    3 5
+@    0 6
+@    5 7
+@    3 8
+@    5 9
+@    6 10
+@    8 11
+@    8 12
+@    2 13
+@    12 14
+==============================+===============================================================
+*/
 //
 // Created by wonma on 2019-06-30.
 //
@@ -12,7 +34,7 @@
 
 using namespace std;
 
-// È¸ÀÇ ³¡³ª´Â ½Ã°£ ¼øÀ¸·Î ³»¸²Â÷¼øÀ¸·Î Á¤·Ä
+
 int descendingCompare(const void* a, const void* b)
 {
     int num1 = (*(pair<int, int>*) a).second;
@@ -23,7 +45,6 @@ int descendingCompare(const void* a, const void* b)
     else if (num1 < num2)
         return -1;
 
-    // ³¡³ª´Â ½Ã°£ÀÌ °°´Ù¸é ½ÃÀÛÇÏ´Â ½Ã°£ÀÌ ÀÌ¸¥ ¼ø¼­´ë·Î Á¤·ÄÇØ¾ß ÇÑ´Ù
     else {
         int num1_1 = (*(pair<int, int>*) a).first;
         int num1_2 = (*(pair<int, int>*) b).first;
@@ -41,10 +62,10 @@ int descendingCompare(const void* a, const void* b)
 }
 
 
-// °¡Àå »¡¸® ½ÃÀÛÇÏ¸é¼­ °¡Àå »¡¸® ³¡³ª´Â È¸ÀÇ ½Ã°£À» °í¸£ÀÚ
+
 void solve_1931(){
 
-    // N(1 ¡Â N ¡Â 100,000)
+
     int N;
     cin >> N;
 
@@ -59,13 +80,9 @@ void solve_1931(){
         if(meetingTime[i].first > maxStartTime) maxStartTime = meetingTime[i].first;
     }
 
-    // È¸ÀÇ ³¡³ª´Â ½Ã°£ ¼øÀ¸·Î ³»¸²Â÷¼øÀ¸·Î Á¤·Ä
+
     qsort(meetingTime, N, sizeof(pair<int, int>), descendingCompare);
 
-    // ´õ ÀÌ»ó È¸ÀÇ¸¦ ÁøÇàÇÒ ¼ö ¾øÀ» ¶§ ±îÁö ¹İº¹¹®À» ÁøÇà
-    // °¡ÁßÄ¡¸¦ È¸ÀÇ°¡ ½ÃÀÛÇÏ´Â ½Ã°£ + È¸ÀÇ ½Ã°£À¸·Î ÀâÀ¸¸é, °è»êÇØº¸¸é (int weight = meetingTime[i].first + (meetingTime[i].second - meetingTime[i].first);)
-    // 'È¸ÀÇ°¡ ³¡³ª´Â ½Ã°£'ÀÌ ³ª¿Â´Ù. µû¶ó¼­, È¸ÀÇ°¡ ÀÏÂï ³¡³ª´Â ¼ø¼­·Î È¸ÀÇ¸¦ ÀâÀ¸¸é (±×¸®µğ ¾Ë°í¸®Áò)
-    // ¿øÇÏ´Â °á°ú¸¦ ¾òÀ» ¼ö ÀÖÀ» °ÍÀÌ´Ù.
     for (int i = 0; i < N; i++){
         if(meetingTime[i].first >= currentTime){
             maxMeetingRoomNum++;

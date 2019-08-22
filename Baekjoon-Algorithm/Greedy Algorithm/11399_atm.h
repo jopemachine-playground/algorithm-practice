@@ -1,9 +1,17 @@
+/*
+==============================+===============================================================
+@ File Name : 11399_atm.h
+@ Author : jopemachine
+@ Created Date : 2019-06-28, 18:39:12
+@ Desc : 
+@    ATM
+==============================+===============================================================
+*/
 #pragma once
 // to use unsafe function
 #pragma warning(disable: 4996)
 /*
 http://blog.naver.com/PostView.nhn?blogId=occidere&logNo=220790825104&parentCategoryNo=&categoryNo=14&viewDate=&isShowPopularPosts=false&from=postView
-위 사이트가 풀이가 잘 설명되어 있었다
 */
 
 #include <iostream>
@@ -30,8 +38,7 @@ void solve_11399() {
 	const char* waitingTimeChars = strtok(cstr, " ");
 	int* waitingTimes = NULL;
 	waitingTimes = new int[personNumber] {};
-	
-	// 한 줄을 입력 받아 파싱함
+
 	for (int i = 0; waitingTimeChars != NULL; i++) {
 		// char to int
 		*(waitingTimes + i) = atoi(waitingTimeChars);
@@ -57,9 +64,6 @@ void solve_11399() {
 
 	printf("%d\n", sum);
 }
-
-// 왜인지 모르겠지만, 1번 풀이가 
-// 백준 저지 사이트에서 런타임에러로 넘어가지지 않아 2번 풀이로 진행
 
 void solve_11399_2() {
 	int personNumber;

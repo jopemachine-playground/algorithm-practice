@@ -1,3 +1,20 @@
+/*
+==============================+===============================================================
+@ File Name : 1966_printerQueue.h
+@ Author : jopemachine
+@ Created Date : 2019-06-28, 18:39:21
+@ Desc : 
+@    í”„ë¦°í„° í
+@ Issue : 
+@    3
+@    1 0
+@    5
+@    4 2
+@    1 2 3 4
+@    6 0
+@    1 1 9 1 1 1
+==============================+===============================================================
+*/
 #pragma once
 // to use unsafe function
 #pragma warning(disable: 4996)
@@ -8,7 +25,7 @@
 
 using namespace std;
 
-// ºê·çÆ® Æ÷½º·Î Ç®±â
+
 void solve_1966() {
 
 	queue<int> que;
@@ -33,20 +50,16 @@ void solve_1966() {
 
 		memset(impArray[i], 0, sizeof(int) * docNumber);
 
-		// ¿ì¼±¼øÀ§ ¹è¿­ ¼ÂÆÃ, Å¥¸¦ ¸¸µë
+
 		for (int j = docNumber - 1; j >= 0; j--) {
 			cin >> impArray[i][j];
 			que.push(impArray[i][j]);
 		}
 
-		// j¹øÂ° ¹è¿­ÀÇ ¿ì¼±¼øÀ§ °ªÀ» È®ÀÎÇÏ°í ÃÖ´ë °ªÀÌ ¾Æ´Ï¶ó¸é, 
-		// ÀÎ¼âÇÏÁö ¾Ê°í Å¥ÀÇ ¸¶Áö¸·À¸·Î º¸³½´Ù
-		// À§ °úÁ¤À» ¹İº¹ÇØ ¿ì¼±¼øÀ§°¡ ³ôÀº ¹®¼­ ¼øÀ¸·Î Ãâ·ÂÇÑ´Ù
 		while(!que.empty()) {
 
 			bool isMax = true;
 
-			// impArray[i][que.size() - 1] (Å¥ÀÇ front¿¡ ÇØ´çÇÏ´Â ¿ø¼Ò) °¡ ÃÖ´ë°ªÀÎÁö È®ÀÎ
 			for (int k = 0; k < que.size(); k++) {
 				if (impArray[i][que.size() - 1] < impArray[i][k]) {
 					isMax = false;
@@ -54,7 +67,7 @@ void solve_1966() {
 				}
 			}
 			
-			// ÃÖ´ë°ªÀÌ¶ó¸é Á¦°ÅÇÏ°Å³ª, targetNumberÀÏ °æ¿ì ´äÀ» ³»¸®°í Áß´Ü
+
 			if (isMax) {
 
 				que.pop();
@@ -69,15 +82,12 @@ void solve_1966() {
 				}
 		
 			}
-			
-			// ÃÖ´ñ°ªÀÌ ¾Æ´Ï¶ó¸é Å¥ÀÇ rear¿¡ ´Ù½Ã »ğÀÔÇÏ°í ¹İº¹.
-			// ¾Æ·¡ ÄÉÀÌ½º¿¡¼± ÀÎ¼â°¡ ÀÏ¾î³ªÁö ¾ÊÀ¸¹Ç·Î loopNumber°¡ Áõ°¡ÇÏÁö ¾ÊÀ½
+
 			else {
 				int temp = que.front();
 				que.push(que.front());
 				que.pop();
-				
-				// ¹è¿­À» ÇÑ Ä­ ¾¿ ¾ÕÀ¸·Î ¶¯±â°í, ¸¶Áö¸· °ª¿¡ temp¸¦ ´ëÀÔ
+
 				for (int k = que.size() - 1; k > 0; k--) {
 					impArray[i][k] = impArray[i][k - 1];
 				}

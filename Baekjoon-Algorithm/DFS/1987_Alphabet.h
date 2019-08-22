@@ -1,3 +1,16 @@
+/*
+==============================+===============================================================
+@ File Name : 1987_Alphabet.h
+@ Author : jopemachine
+@ Created Date : 2019-06-28, 18:38:42
+@ Desc : 
+@    ì•ŒíŒŒë²³
+@ Issue : 
+@    2 4
+@    CAAB
+@    ADCB
+==============================+===============================================================
+*/
 #pragma once
 // to use unsafe function
 #pragma warning(disable: 4996)
@@ -29,19 +42,19 @@ void solve_dfs(int row, int col, int depth) {
 
 	pastpath_array[depth] = map[col][row];
 
-	// ¿À¸¥ÂÊ ¹æÇâÀ¸·Î dfs
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ dfs
 	if ((row + 1 < width && row >= 0) && !isInArray(map[col][row + 1], depth)) {
 		solve_dfs(row + 1, col, depth + 1);
 	}
-	// ¾Æ·¡ ¹æÇâÀ¸·Î dfs
+	// ï¿½Æ·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ dfs
 	if ((col + 1 < height && col >= 0) && !isInArray(map[col + 1][row], depth)) {
 		solve_dfs(row, col + 1, depth + 1);
 	}
-	// ¿ÞÂÊ ¹æÇâÀ¸·Î dfs
+	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ dfs
 	if (row - 1 >= 0 && !isInArray(map[col][row - 1], depth)) {
 		solve_dfs(row - 1, col, depth + 1);
 	}
-	// À§ÂÊ ¹æÇâÀ¸·Î dfs
+	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ dfs
 	if (col - 1 >= 0 && !isInArray(map[col - 1][row], depth)) {
 		solve_dfs(row, col - 1, depth + 1);
 	}

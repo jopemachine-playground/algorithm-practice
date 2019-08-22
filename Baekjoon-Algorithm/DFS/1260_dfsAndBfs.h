@@ -1,10 +1,18 @@
+/*
+==============================+===============================================================
+@ File Name : 1260_dfsAndBfs.h
+@ Author : jopemachine
+@ Created Date : 2019-06-28, 18:38:42
+@ Desc : 
+@    DFSì™€ BFS
+==============================+===============================================================
+*/
 #pragma once
 // to use unsafe function
 #pragma warning(disable: 4996)
 
 /*
-Âü°í
-https://felixblog.tistory.com/72 - ÀÌÂ÷¿ø ¹è¿­ÀÇ µ¿Àû ÇÒ´ç
+https://felixblog.tistory.com/72
 */
 
 #include <iostream>

@@ -1,3 +1,12 @@
+/*
+==============================+===============================================================
+@ File Name : 1003_Fibonacci.h
+@ Author : jopemachine
+@ Created Date : 2019-06-30, 09:11:47
+@ Desc : 
+@    í”¼ë³´ë‚˜ì¹˜ í•¨ìˆ˜
+==============================+===============================================================
+*/
 //
 // Created by wonma on 2019-06-30.
 //
@@ -28,7 +37,6 @@ void solve_1003() {
         if(maxInput < inputs[i]) maxInput = inputs[i];
     }
 
-    // °¢°¢ 1, 0ÀÇ °¹¼ö¸¦ ³ªÅ¸³»´Â Ä³½Ã
     int* cacheZero = new int[maxInput + 1];
     int* cacheOne = new int[maxInput + 1];
 
