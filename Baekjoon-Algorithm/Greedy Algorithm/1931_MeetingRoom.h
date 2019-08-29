@@ -2,22 +2,9 @@
 ==============================+===============================================================
 @ File Name : 1931_MeetingRoom.h
 @ Author : jopemachine
-@ Created Date : 2019-06-30, 10:37:49
 @ Desc : 
 @    회의실배정
-@ Issue : 
-@    11
-@    1 4
-@    3 5
-@    0 6
-@    5 7
-@    3 8
-@    5 9
-@    6 10
-@    8 11
-@    8 12
-@    2 13
-@    12 14
+@    대표적인 그리디 문제. qsort를 이용하기 위해, descendingCompare를 구현함.
 ==============================+===============================================================
 */
 //
@@ -79,7 +66,6 @@ void solve_1931(){
         cin >> meetingTime[i].first >> meetingTime[i].second;
         if(meetingTime[i].first > maxStartTime) maxStartTime = meetingTime[i].first;
     }
-
 
     qsort(meetingTime, N, sizeof(pair<int, int>), descendingCompare);
 

@@ -1,14 +1,15 @@
 #--------------------------------------------------------
 #
-# This file is created by comment helper 
+# This file is created by summary commenter 
 #
 #--------------------------------------------------------
 
 # Setting
 setting.descNumbering        =   0
 setting.issueNumbering       =   0
+setting.refURLNumbering      =   0
 setting.recursiveTraversal   =   1
-setting.divBySeparator       =   1
+setting.divBySeparator       =   0
 setting.divByStartEndTag     =   1
 
 # Flags
@@ -17,7 +18,7 @@ flag.File_Name   =   1
 flag.Author   =   1
 flag.Team   =   0
 flag.Last_Edited   =   0
-flag.Created_Date   =   1
+flag.Created_Date   =   0
 flag.Desc   =   1
 flag.Issue   =   1
 flag.Email   =   0
@@ -29,7 +30,8 @@ flag.Sub_Div_Line   =   1
 
 # Globals
 global.Extension        =  "h"
-global.Project_Path     =  "D:\Algorithm\Baekjoon-Algorithm"
+global.Project_Name     =  ""
+global.Project_Path     =  "C:\Algorithm-DS-Practice\Baekjoon-Algorithm"
 global.Author           =  "jopemachine"
 global.Separator        =  "@ "
 global.StartTag         =  "/*"
@@ -43,138 +45,110 @@ global.Team             =  ""
 global.Memo             =  ""
 
 # Desc
-1000.h::desc       +=       A+B
-1001.h::desc       +=       A-B
-1003_Fibonacci.h::desc       +=       피보나치 함수
-1008.h::desc       +=       A/B
-1012_dfsWithStack.h::desc       +=       유기농 배추
-10610_30.h::desc       +=        
-1065.h::desc       +=       한수
-10799.h::desc       +=       쇠막대기
-10988_palindrome.h::desc       +=       팰린드롬인지 확인하기
-11047_coin.h::desc       +=       동전 0
-11399_atm.h::desc       +=       ATM
-11403_searchPath.h::desc       +=       경로 찾기
-11729_topOfHanoi.h::desc       +=       하노이 탑 이동 순서
-1260_dfsAndBfs.h::desc       +=       DFS와 BFS
-1377_bubbleSort.h::desc       +=       버블 소트
-1463.h::desc       +=       1로 만들기
-1725_Histogram.h::desc       +=       히스토그램
-1753.h::desc       +=       최단경로
-1874_stackSequence.h::desc       +=       스택 수열
-1916.h::desc       +=       최소비용 구하기
-1918_inorder2PostOrder.h::desc       +=       후위 표기식
-1992.h::desc       +=       쿼드트리
-1931_MeetingRoom.h::desc       +=       회의실배정
-1966_printerQueue.h::desc       +=       프린터 큐
-1987_Alphabet.h::desc       +=       알파벳
-2178_maze.h::desc       +=       미로 탐색
-2193.h::desc       +=       이친수
-2630.h::desc       +=       색종이 만들기
-2667_floodFillWithDFS.h::desc       +=       단지번호붙이기
-2905_paintPlane.h::desc       +=        
-2997.h::desc       +=       네 번째 수
-3986_Goodword.h::desc       +=       좋은 단어
-4307_ant.h::desc       +=       개미
-4963_numberOfIsland.h::desc       +=        
-9012_Parentheses.h::desc       +=       괄호
-9095.h::desc       +=       1, 2, 3 더하기
+1000.h::desc       +=       "A+B"
+1001.h::desc       +=       "A-B"
+1003_Fibonacci.h::desc       +=       "피보나치 함수
+DP 기초 문제. cacheZero, cacheOne이란 int형 배열 2개를 만들어 반복문에서 주어진 input을 만드는데,
+이용했다."
+1008.h::desc       +=       "A/B"
+1012_dfsWithStack.h::desc       +=       "유기농 배추
+DFS 문제. 스택을 이용해 재귀 없이 풀어보았다."
+10610_30.h::desc       +=       "풀다 만 문제. 마저 풀자."
+1065.h::desc       +=       "한수
+단순한 brute force 문제."
+10799.h::desc       +=       "쇠막대기"
+10988_palindrome.h::desc       +=       "팰린드롬인지 확인하기
+반복문으로 간단히 확인할 수 있다."
+10998.h::desc       +=       "A*B"
+11047_coin.h::desc       +=       "동전 0
+간단하게 풀 수 있는 문제."
+11399_atm.h::desc       +=       "ATM
+간단한 그리디 알고리즘 문제. solve_11399에 처음 풀이를 적었는데 (비쥬얼 스튜디오로 실행),
+백준 컴파일러에서 돌아가지 않아 solve_11399_2로 풀어 제출했다."
+11403_searchPath.h::desc       +=       "경로 찾기
+풀다 만 문제."
+11729_topOfHanoi.h::desc       +=       "하노이 탑 이동 순서"
+1260_dfsAndBfs.h::desc       +=       "DFS와 BFS
+BFS의 경우, BFS 문제 풀이가 이 문제가 처음이었기 때문에, 큐 외에 재귀를 이용해 풀었는데,
+사실 재귀는 이용할 필요 없음."
+1377_bubbleSort.h::desc       +=       "버블 소트
+풀다 만 문제. 생각보다 어려운 개념을 요구했음."
+1463.h::desc       +=       "1로 만들기
+반복문을 돌면서 cache에 값들을 저장하면서 주어진 input 까지 반복문을 돌면 된다.
+cache[2], cache[3]엔 직접 값을 넣어준다 (base case)"
+1725_Histogram.h::desc       +=       "히스토그램
+풀다 일단 포기함. 세그먼트 트리란 자료구조를 이용해야 한다고 함."
+1753.h::desc       +=       "최단경로
+풀다 계속 메모리 초과가 나서 일단 포기함."
+1874_stackSequence.h::desc       +=       "스택 수열"
+1916.h::desc       +=       "최소비용 구하기
+다익스트라 알고리즘을 알고 있으면 풀 수 있는 문제.
+STL의 우선순위 큐를 이용했다.
+"
+1918_inorder2PostOrder.h::desc       +=       "후위 표기식
+계산기 작성에 이용한 알고리즘."
+1931_MeetingRoom.h::desc       +=       "회의실배정
+대표적인 그리디 문제. qsort를 이용하기 위해, descendingCompare를 구현함."
+1966_printerQueue.h::desc       +=       "프린터 큐"
+1987_Alphabet.h::desc       +=       "알파벳
+DFS 문제.
+solve_dfs 내에서 isInArray를 4번씩 호출해 배열에 들어 있는 값인지 검사했다."
+1992.h::desc       +=       "쿼드트리
+문제 출력이 복잡해보이는데, divide란 함수를 정의해놓고 분할정복으로 푸니 간단했다."
+2178_maze.h::desc       +=       "미로 탐색
+dist를 -1로 초기화해 놓고, while문에서 dist를 검사함으로써, dist를 isVisited 대신 쓸 수 있다."
+2193.h::desc       +=       "이친수"
+2630.h::desc       +=       "색종이 만들기
+간단한 분할정복 문제."
+2667_floodFillWithDFS.h::desc       +=       "단지번호붙이기
+DFS 문제"
+2905_paintPlane.h::desc       +=       ""
+2997.h::desc       +=       "네 번째 수"
+3986_Goodword.h::desc       +=       "좋은 단어"
+4307_ant.h::desc       +=       "개미"
+4963_numberOfIsland.h::desc       +=       ""
+9012_Parentheses.h::desc       +=       "괄호"
+9095.h::desc       +=       "1, 2, 3 더하기"
 
 # Issue
-1874_stackSequence.h::issue       +=       8
-1874_stackSequence.h::issue       +=       4
-1874_stackSequence.h::issue       +=       3
-1874_stackSequence.h::issue       +=       6
-1874_stackSequence.h::issue       +=       8
-1874_stackSequence.h::issue       +=       7
-1874_stackSequence.h::issue       +=       5
-1874_stackSequence.h::issue       +=       2
-1874_stackSequence.h::issue       +=       1
-1916.h::issue       +=       5
-1916.h::issue       +=       8
-1916.h::issue       +=       1 2 2
-1916.h::issue       +=       1 3 3
-1916.h::issue       +=       1 4 1
-1916.h::issue       +=       1 5 10
-1916.h::issue       +=       2 4 2
-1916.h::issue       +=       3 4 1
-1916.h::issue       +=       3 5 1
-1916.h::issue       +=       4 5 3
-1916.h::issue       +=       1 5
-1918_inorder2PostOrder.h::issue       +=       A*(B+C)
-1930.h::issue       +=        
-1931_MeetingRoom.h::issue       +=       11
-1931_MeetingRoom.h::issue       +=       1 4
-1931_MeetingRoom.h::issue       +=       3 5
-1931_MeetingRoom.h::issue       +=       0 6
-1931_MeetingRoom.h::issue       +=       5 7
-1931_MeetingRoom.h::issue       +=       3 8
-1931_MeetingRoom.h::issue       +=       5 9
-1931_MeetingRoom.h::issue       +=       6 10
-1931_MeetingRoom.h::issue       +=       8 11
-1931_MeetingRoom.h::issue       +=       8 12
-1931_MeetingRoom.h::issue       +=       2 13
-1931_MeetingRoom.h::issue       +=       12 14
-1966_printerQueue.h::issue       +=       3
-1966_printerQueue.h::issue       +=       1 0
-1966_printerQueue.h::issue       +=       5
-1966_printerQueue.h::issue       +=       4 2
-1966_printerQueue.h::issue       +=       1 2 3 4
-1966_printerQueue.h::issue       +=       6 0
-1966_printerQueue.h::issue       +=       1 1 9 1 1 1
-1987_Alphabet.h::issue       +=       2 4
-1987_Alphabet.h::issue       +=       CAAB
-1987_Alphabet.h::issue       +=       ADCB
-2178_maze.h::issue       +=       4 6
-2178_maze.h::issue       +=       101111
-2178_maze.h::issue       +=       101010
-2178_maze.h::issue       +=       101011
-2178_maze.h::issue       +=       111011
-2193.h::issue       +=       3
-2630.h::issue       +=       8
-2630.h::issue       +=       1 1 0 0 0 0 1 1
-2630.h::issue       +=       1 1 0 0 0 0 1 1
-2630.h::issue       +=       0 0 0 0 1 1 0 0
-2630.h::issue       +=       0 0 0 0 1 1 0 0
-2630.h::issue       +=       1 0 0 0 1 1 1 1
-2630.h::issue       +=       0 1 0 0 1 1 1 1
-2630.h::issue       +=       0 0 1 1 1 1 1 1
-2630.h::issue       +=       0 0 1 1 1 1 1 1
-2667_floodFillWithDFS.h::issue       +=       7
-2667_floodFillWithDFS.h::issue       +=       0110100
-2667_floodFillWithDFS.h::issue       +=       0110101
-2667_floodFillWithDFS.h::issue       +=       1110101
-2667_floodFillWithDFS.h::issue       +=       0000111
-2667_floodFillWithDFS.h::issue       +=       0100000
-2667_floodFillWithDFS.h::issue       +=       0111110
-2667_floodFillWithDFS.h::issue       +=       0111000
-2905_paintPlane.h::issue       +=        
-2997.h::issue       +=       4 6 8
-3986_Goodword.h::issue       +=       3
-3986_Goodword.h::issue       +=       ABAB
-3986_Goodword.h::issue       +=       AABB
-3986_Goodword.h::issue       +=       ABBA
-4307_ant.h::issue       +=       2
-4307_ant.h::issue       +=       10 3
-4307_ant.h::issue       +=       2
-4307_ant.h::issue       +=       6
-4307_ant.h::issue       +=       7
-4307_ant.h::issue       +=       214 7
-4307_ant.h::issue       +=       11
-4307_ant.h::issue       +=       12
-4307_ant.h::issue       +=       7
-4307_ant.h::issue       +=       13
-4307_ant.h::issue       +=       176
-4307_ant.h::issue       +=       23
-4307_ant.h::issue       +=       191
-4963_numberOfIsland.h::issue       +=        
-9012_Parentheses.h::issue       +=       6
-9012_Parentheses.h::issue       +=       (())())
-9012_Parentheses.h::issue       +=       (((()())()
-9012_Parentheses.h::issue       +=       (()())((()))
-9012_Parentheses.h::issue       +=       ((()()(()))(((())))()
-9012_Parentheses.h::issue       +=       ()()()()(()()())()
-9012_Parentheses.h::issue       +=       (()((())()(
+1000.h::issue       +=       ""
+1001.h::issue       +=       ""
+1003_Fibonacci.h::issue       +=       ""
+1008.h::issue       +=       ""
+1012_dfsWithStack.h::issue       +=       ""
+10610_30.h::issue       +=       ""
+1065.h::issue       +=       ""
+10799.h::issue       +=       ""
+10988_palindrome.h::issue       +=       ""
+10998.h::issue       +=       ""
+11047_coin.h::issue       +=       ""
+11399_atm.h::issue       +=       ""
+11403_searchPath.h::issue       +=       ""
+11729_topOfHanoi.h::issue       +=       ""
+1260_dfsAndBfs.h::issue       +=       ""
+1377_bubbleSort.h::issue       +=       ""
+1463.h::issue       +=       ""
+1725_Histogram.h::issue       +=       ""
+1753.h::issue       +=       ""
+1874_stackSequence.h::issue       +=       ""
+1916.h::issue       +=       ""
+1918_inorder2PostOrder.h::issue       +=       ""
+1931_MeetingRoom.h::issue       +=       ""
+1966_printerQueue.h::issue       +=       ""
+1987_Alphabet.h::issue       +=       ""
+1992.h::issue       +=       ""
+2178_maze.h::issue       +=       ""
+2193.h::issue       +=       ""
+2630.h::issue       +=       ""
+2667_floodFillWithDFS.h::issue       +=       "cin에 대해 몰랐던 부분이 있어 코드에서 다소 어렵게 입력을 받았는데, 
+for (int i = 0; i < N; i++) cin >> graph[i]; 와 같이 써서, 입력을 단순하게 받을 수 있다."
+2905_paintPlane.h::issue       +=       ""
+2997.h::issue       +=       ""
+3986_Goodword.h::issue       +=       ""
+4307_ant.h::issue       +=       ""
+4963_numberOfIsland.h::issue       +=       ""
+9012_Parentheses.h::issue       +=       ""
+9095.h::issue       +=       ""
 
 # Reference URLs
 
