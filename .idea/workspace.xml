@@ -14,44 +14,40 @@
     <list default="true" id="29261a73-88b5-4e4d-af78-d81f700ff407" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm.scps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm.scps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/2178_maze.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/2178_maze.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Brute Force/1065.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Brute Force/1065.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1012_dfsWithStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1012_dfsWithStack.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/DFS/11403_searchPath.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/DFS/11403_searchPath.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1260_dfsAndBfs.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1260_dfsAndBfs.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1987_Alphabet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/DFS/1987_Alphabet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/DFS/2667_floodFillWithDFS.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/DFS/2667_floodFillWithDFS.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dijkstra/1753.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dijkstra/1753.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dijkstra/1916.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dijkstra/1916.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Divide and Conquer/1992.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Divide and Conquer/1992.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Divide and Conquer/2630.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Divide and Conquer/2630.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1003_Fibonacci.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1003_Fibonacci.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1463.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1463.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/2193.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/2193.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/9095.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/9095.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Graph/4963_numberOfIsland.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Graph/4963_numberOfIsland.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/10610_30.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/10610_30.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/11047_coin.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/11047_coin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/11399_atm.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/11399_atm.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/1931_MeetingRoom.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/1931_MeetingRoom.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/4307_ant.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/4307_ant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/1000.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/1000.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/1001.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/1001.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/1008.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/1008.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/10998.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/10998.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/2997.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/2997.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Queue/1966_printerQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Queue/1966_printerQueue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Queue/2905_paintPlane.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Queue/2905_paintPlane.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Recursion/11729_topOfHanoi.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Recursion/11729_topOfHanoi.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Sort/1377_bubbleSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Sort/1377_bubbleSort.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/10799.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/10799.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/1725_Histogram.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/1725_Histogram.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/1874_stackSequence.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/1874_stackSequence.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/1918_inorder2PostOrder.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/1918_inorder2PostOrder.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/3986_Goodword.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/3986_Goodword.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/9012_Parentheses.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/9012_Parentheses.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/String process/10988_palindrome.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/String process/10988_palindrome.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/scproj" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/scproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/test.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/test.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,22 +73,6 @@
     <select />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>maxArea</find>
-      <find>visitedPlace</find>
-      <find>E</find>
-      <find>K</find>
-      <find>i</find>
-      <find>allocator</find>
-      <find>insert</find>
-      <find>SelfMade</find>
-    </findStrings>
-    <dirStrings>
-      <dir>D:\Algorithm\cmake-build-debug</dir>
-      <dir>D:\Algorithm</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -195,6 +175,8 @@
       <workItem from="1566456973326" duration="865000" />
       <workItem from="1566458687849" duration="1153000" />
       <workItem from="1567089591124" duration="1019000" />
+      <workItem from="1567092705297" duration="2000" />
+      <workItem from="1567333731816" duration="6805000" />
     </task>
     <servers />
   </component>
@@ -206,10 +188,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="tempN" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
