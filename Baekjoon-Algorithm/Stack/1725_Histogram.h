@@ -32,7 +32,6 @@ using namespace std;
 
 // https://mygumi.tistory.com/177
 // http://blog.naver.com/PostView.nhn?blogId=kks227&logNo=220781557098&parentCategoryNo=&categoryNo=299&viewDate=&isShowPopularPosts=false&from=postList
-// �Ʒ��� ���� Ǯ�� ������ ������ �˰������̶� �Ѵٰ� ��. (������ ���ƴٰ�;;)
 void solve_1725(){
 
     // 1 <= input <= 100,000
@@ -40,7 +39,6 @@ void solve_1725(){
 
     cin >> input;
 
-    // ������ ������ int�� ��� �� �ֱ� ������, (20�� �̸�) int�� �� �� ����
     long long int* heightArray = new long long int[input];
 
     stack<long long int> stk;
@@ -53,12 +51,10 @@ void solve_1725(){
 
     for (int i = 0; i < input; i++) {
 
-        // ���� top ���� ū ���̰� �������� push
-        // �� �������� ���ÿ��� ������������ �������׷��� �����ȴ�
         if(stk.empty() || stk.top() <= heightArray[i]){
             stk.push(heightArray[i]);
         }
-        // ���� top ���� ���� ���̰� input���� �������� Ư�� ���Ǳ��� pop
+
         else if (stk.top() > heightArray[i]){
 
             int width = 1;
@@ -96,14 +92,13 @@ void solve_1725(){
                 heightIndex--;
             }
 
-            // �� ������ ��ġ�� ������ input�� push �� �ش�.
+
             stk.push(heightArray[i]);
 
         }
     }
 
-    // �� �ݺ����� ������ ������ �� �� ���� ��.
-    // ���� ���ÿ� ���� �ִ� �͵��� ���鼭 �ٽ� �ִ밪 ���̸� �˻��Ѵ�.
+
     int endWidth = 1;
 
     while(!stk.empty()){
@@ -123,15 +118,10 @@ void solve_1725(){
         endWidth++;
     }
 
-    // maxArea < 20 * (10^8)(20�� �̸�)
     cout << maxArea;
 
 }
 
-// ���� �ܿ�������, ������ �� ���� Ǯ �� ���� �� ���Ƽ� �̷��� �����غ�.
-// ���� �簢���� ���̸� ���� �� �����ϱ� ������, �����ڸ�, Brute Force���� �ؾ��� �� ������, input ũ�Ⱑ �ʹ� ũ�� ������
-// �翬�ϰԵ� �ð��ʰ��� ����
-// �׻� ������ Ǯ�� �� �Է��� ������ Ȯ���ϰ�, � �˰������� �ð� �ʰ����� ������ ������ �Ŀ� ������ Ǯ���� ����
 void solve_1725_bruteForce() {
 
     // 1 <= input <= 100,000
@@ -139,7 +129,7 @@ void solve_1725_bruteForce() {
 
     cin >> input;
 
-    // ������ ������ int�� ��� �� �ֱ� ������, (20�� �̸�) int�� �� �� ����
+
     long long int* heightArray = new long long int[input];
 
     for (int i = 0; i < input; i++){
@@ -148,11 +138,9 @@ void solve_1725_bruteForce() {
 
     long long int maxArea = 0;
 
-    // �� ���� ������ �ش� ���簢���� ���̸� ���� �� �ִ�.
     for (int leftPoint = 0; leftPoint < input; leftPoint++){
         for(int rightPoint = leftPoint; rightPoint < input; rightPoint++){
 
-            // ���ϴ� ���簢���� ���� �� ���̴� ���� ���� ���̿� �ش��Ѵ�.
             long long int minHeight = heightArray[leftPoint];
 
             for (int heightIndex = leftPoint; heightIndex <= rightPoint; heightIndex++){
@@ -161,8 +149,6 @@ void solve_1725_bruteForce() {
                 }
             }
 
-            // ���ϴ� ���簢���� ���� �� �ʺ��� �� ���� ���� �ش��Ѵ�.
-            // leftPoint == rightPoint�� �� �ʺ��� 1�� �ش���
             int width = rightPoint - leftPoint + 1;
 
             long long int area = width * minHeight;
@@ -171,7 +157,6 @@ void solve_1725_bruteForce() {
         }
     }
 
-    // maxArea < 20 * (10^8)(20�� �̸�)
     cout << maxArea;
 
 }

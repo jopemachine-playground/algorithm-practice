@@ -31,11 +31,6 @@ string input;
 // opeator stack
 stack<char> stk;
 
-// �Ʒ� �ڵ��� https://donggod.tistory.com/45 ���� �����Դ�
-// �Ʒ� �ڵ带 ���� �� �ڵ带 ���� �۵��ϰ� ��������.
-// ���� �ٽ� ���̵����� ���Ҵµ� (�ٸ� å�� �����ؼ� ®�� ������), 
-// �� ���쿣 ��ȣ�� ������ �� �۵��ϴµ�, ��ȣ�� ���� �� ���װ� ����,
-// ��ȣ�� �����ϴ� ���ڿ��� ���� �������� �����ߴ�
 
 void solution_1918() {
 	char str[1000]; //input
@@ -43,20 +38,17 @@ void solution_1918() {
 
 	scanf("%s", str);
 
-	stack<char> s; // +-*/(�� ������ ����
-	int oIdx = 0; // ���� ���ڿ��� �ε���
+	stack<char> s;
+	int oIdx = 0;
 
-	// str�� ���ڿ��� ������
 	for (int i = 0; i < strlen(str); i++) {
 		if (str[i] >= 'A' && str[i] <= 'Z') {
-			output[oIdx++] = str[i]; // A~Z�� ���¹��ڿ��� �߰�
+			output[oIdx++] = str[i]; // A~Z
 		}
 		else {
-			//�װԾƴϸ� ���� ��ȣ�̹Ƿ�
-			//�Ʒ�ó�� ó��
 
-			if (str[i] == '(') s.push(str[i]); // '('���ڴ� ������ ���ÿ� �߰�
-			else if (str[i] == ')') { // ')'���ڴ� '('���ڸ� ���� ������ pop
+			if (str[i] == '(') s.push(str[i]);
+			else if (str[i] == ')') {
 				while (s.top() != '(') {
 					output[oIdx++] = s.top();
 					s.pop();
@@ -64,18 +56,14 @@ void solution_1918() {
 				s.pop();
 			}
 			else if (str[i] == '*' || str[i] == '/') {
-				//�켱������ ������ ���ų� �������� pop
-				//( '/','*'���� �켱������ �������� ����)
 				while (!s.empty() && (s.top() == '*' || s.top() == '/')) {
 					output[oIdx++] = s.top();
 					s.pop();
 				}
 				s.push(str[i]);
 			}
-			else { // '+', '-' �� ����
+			else {
 				while (!s.empty() && s.top() != '(') {
-					//�켱������ ������ ���ų� �������� pop
-					//('+', '-'���ٴ� ���� �켱������ �����Ƿ� '('�� ������ �� ������ pop)
 					output[oIdx++] = s.top();
 					s.pop();
 				}
@@ -85,7 +73,6 @@ void solution_1918() {
 		}
 	}
 
-	//���ÿ� �����ִ� ���� ���� pop
 	while (!s.empty()) {
 		output[oIdx++] = s.top();
 		s.pop();

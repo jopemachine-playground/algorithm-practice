@@ -41,17 +41,14 @@ void solve_9012() {
 		f = false;
 		
 		for (int j = 0; j < str[i].size(); j++) {
-			// ) �� �� ���ÿ� �������� ������ NO
 			if (charStack.empty() && str[i].at(j) == ')') {
 				result += "NO\n";
 				f = true;
 				break;
 			}
-			// ������ ���������� push�Ѵ�. ���� ���� ��ȣ�� �������� push�Ѵ�
 			if (charStack.empty() || (charStack.top() == '(' && str[i].at(j) == '(')) {
 				charStack.push(str[i].at(j));
 			}
-			// ���� �ش����� �ʴ´ٴ� ����, ������ �� �ְ�, ��ȣ�� ��Ī�ȴٴ� ���̹Ƿ� ���ÿ��� pop�Ѵ�
 			else {
 				charStack.pop();
 			}

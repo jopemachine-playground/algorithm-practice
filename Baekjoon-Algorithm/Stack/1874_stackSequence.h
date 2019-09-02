@@ -30,7 +30,6 @@ void solve_1874() {
     int* inputArray = new int[inputNumber];
     string result = "";
 
-    // 최대 값의 인덱스. 이 인덱스 뒤의 숫자들은 모두 정렬되어 있어야 스택 수열이다.
     int maxIndex = -1;
 
     for (int i = 0; i < inputNumber; i++) {
@@ -38,7 +37,6 @@ void solve_1874() {
         if (inputArray[i] == inputNumber) maxIndex = i;
     }
 
-    // 스택 수열이 아닌지를 미리 검사
     for (int i = maxIndex; i < inputNumber - 1; i++) {
         if (!(inputArray[i] > inputArray[i + 1])) {
             result = "NO";
@@ -64,7 +62,6 @@ void solve_1874() {
                 if (maxValue < inputArray[i]) maxValue = inputArray[i];
             }
 
-                // 2번 이상 pop이 일어날 때
             else if (!stk.empty() && (stk.top() > inputArray[i])) {
                 for (int j = 0; j < stk.top() - inputArray[i] + 1; j++) {
                     stk.pop();
@@ -72,7 +69,6 @@ void solve_1874() {
                 }
             }
 
-                // 1번만 pop 하는 경우 (stk.top() == inputArray[i])
             else if(stk.top() == inputArray[i]){
                 stk.pop();
                 result += "-\n";
