@@ -27,15 +27,6 @@ int** visitedPlace;
 
 stack<int> path_stack;
 
-void search_pathExist(int start, int dest) {
-	while (path_stack.empty() == false && dest != path_stack.top()) {
-		
-	}
-	
-	
-}
-
-
 void search_pathExist_recursive(int dest, int start, int col) {
 
 	if (map[col][dest] == 1) {
@@ -62,8 +53,6 @@ void solve_11403() {
 
 	// Prev Cond:: 1 <= N <= 100
 	cin >> map_size;
-
-	string* map_oneline = new string[map_size];
 
 	map = new int* [map_size];
 	solution = new int* [map_size];

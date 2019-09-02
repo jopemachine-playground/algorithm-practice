@@ -39,19 +39,18 @@ void solve_dfs(int row, int col, int depth) {
 
 	pastpath_array[depth] = map[col][row];
 
-	// ������ �������� dfs
 	if ((row + 1 < width && row >= 0) && !isInArray(map[col][row + 1], depth)) {
 		solve_dfs(row + 1, col, depth + 1);
 	}
-	// �Ʒ� �������� dfs
+
 	if ((col + 1 < height && col >= 0) && !isInArray(map[col + 1][row], depth)) {
 		solve_dfs(row, col + 1, depth + 1);
 	}
-	// ���� �������� dfs
+
 	if (row - 1 >= 0 && !isInArray(map[col][row - 1], depth)) {
 		solve_dfs(row - 1, col, depth + 1);
 	}
-	// ���� �������� dfs
+
 	if (col - 1 >= 0 && !isInArray(map[col - 1][row], depth)) {
 		solve_dfs(row, col - 1, depth + 1);
 	}

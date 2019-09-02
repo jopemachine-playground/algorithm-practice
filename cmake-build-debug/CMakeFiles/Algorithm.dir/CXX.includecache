@@ -6,21 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Greedy Algorithm/10610_30.h
+C:/Algorithm-DS-Practice/Baekjoon-Algorithm/DFS/11724.h
 iostream
 -
-cmath
--
-stdlib.h
--
-string.h
--
-cstdio
+memory.h
 -
 
 C:/Algorithm-DS-Practice/test.cpp
 iostream
 -
-Baekjoon-Algorithm/Greedy Algorithm/10610_30.h
-C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Greedy Algorithm/10610_30.h
+Baekjoon-Algorithm/DFS/11724.h
+C:/Algorithm-DS-Practice/Baekjoon-Algorithm/DFS/11724.h
 

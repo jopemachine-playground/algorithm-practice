@@ -31,7 +31,6 @@ int dfs_result;
 
 void solve_dfs(int row, int col) {
 
-	// �� �� ���̰ų� �� ���̶��� �ٷ� ����
 	if (map[col][row] == 0) {
 		return;
 	}
@@ -39,19 +38,18 @@ void solve_dfs(int row, int col) {
 	map[col][row] = 0;
 	dfs_result++;
 
-	// ������ �������� dfs
 	if ((row + 1 < map_size && row >= 0) && map[col][row + 1] == 1) { 
 		solve_dfs(row + 1, col);
 	}
-	// �Ʒ� �������� dfs
+
 	if ((col + 1 < map_size && col >= 0) && map[col + 1][row] == 1) {
 		solve_dfs(row, col + 1);
 	}
-	// ���� �������� dfs
+
 	if (row - 1 >= 0 && map[col][row - 1] == 1) {
 		solve_dfs(row - 1 , col);
 	}
-	// ���� �������� dfs
+
 	if (col - 1 >= 0 && map[col - 1][row] == 1) {
 		solve_dfs(row, col - 1);
 	}

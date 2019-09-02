@@ -89,6 +89,9 @@
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/BFS/2178_maze.h">
 			<Option target="Algorithm"/>
 		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/DFS/11724.h">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dijkstra/1753.h">
 			<Option target="Algorithm"/>
 		</Unit>
@@ -120,6 +123,9 @@
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Greedy Algorithm/1931_MeetingRoom.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Greedy Algorithm/5585.h">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Math/1000.h">
