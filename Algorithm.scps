@@ -112,6 +112,7 @@ solve_dfs 내에서 isInArray를 4번씩 호출해 배열에 들어 있는 값인지 검사했다."
 2178_maze.h::desc       +=       "미로 탐색
 dist를 -1로 초기화해 놓고, while문에서 dist를 검사함으로써, dist를 isVisited 대신 쓸 수 있다."
 2193.h::desc       +=       "이친수"
+2217.h::desc       +=       "로프"
 2630.h::desc       +=       "색종이 만들기
 간단한 분할정복 문제."
 2667_floodFillWithDFS.h::desc       +=       "단지번호붙이기
