@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Algorithm-DS-Practice/Baekjoon-Algorithm/BFS/7576.h
+C:/Algorithm-DS-Practice/Baekjoon-Algorithm/BFS/14502.h
+algorithm
+-
 iostream
 -
 queue
@@ -17,6 +19,6 @@ memory.h
 C:/Algorithm-DS-Practice/test.cpp
 iostream
 -
-Baekjoon-Algorithm/BFS/7576.h
-C:/Algorithm-DS-Practice/Baekjoon-Algorithm/BFS/7576.h
+Baekjoon-Algorithm/BFS/14502.h
+C:/Algorithm-DS-Practice/Baekjoon-Algorithm/BFS/14502.h
 
