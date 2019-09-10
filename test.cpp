@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "Baekjoon-Algorithm/BFS/14502.h"
+#include "Baekjoon-Algorithm/Greedy Algorithm/1946.h"
 // #include "Algorithm-DS-Practice/Data-Structure/List/ArrayList.h"
 // #include "Baekjoon-Algorithm/DFS/11724.h"
 
 int main() {
-    solve_14502();
+    solve_1946();
 }

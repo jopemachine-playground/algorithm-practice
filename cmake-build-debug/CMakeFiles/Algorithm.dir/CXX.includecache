@@ -6,19 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Algorithm-DS-Practice/Baekjoon-Algorithm/BFS/14502.h
-algorithm
--
+C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Greedy Algorithm/1946.h
 iostream
--
-queue
--
-memory.h
 -
 
 C:/Algorithm-DS-Practice/test.cpp
 iostream
 -
-Baekjoon-Algorithm/BFS/14502.h
-C:/Algorithm-DS-Practice/Baekjoon-Algorithm/BFS/14502.h
+Baekjoon-Algorithm/Greedy Algorithm/1946.h
+C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Greedy Algorithm/1946.h
 
