@@ -1,9 +1,9 @@
 #pragma once
 template<class T>
 void swap(T& a, T& b) {
-	T temp = a;
-	a = b;
-	b = temp;
+    T temp = a;
+    a = b;
+    b = temp;
 }
 
 int ascending_compare(void* a, void* b)

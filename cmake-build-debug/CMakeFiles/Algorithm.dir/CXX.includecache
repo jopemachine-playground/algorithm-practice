@@ -6,13 +6,25 @@
 
 #IncludeRegexTransform: 
 
-C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Greedy Algorithm/1946.h
+C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Permutation/10974.h
+algorithm
+-
 iostream
+-
+string
+-
+stdlib.h
+-
+cstdio
+-
+vector
+-
+queue
 -
 
 C:/Algorithm-DS-Practice/test.cpp
 iostream
 -
-Baekjoon-Algorithm/Greedy Algorithm/1946.h
-C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Greedy Algorithm/1946.h
+Baekjoon-Algorithm/Permutation/10974.h
+C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Permutation/10974.h
 
