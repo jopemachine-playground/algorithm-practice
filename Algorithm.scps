@@ -14,11 +14,12 @@ setting.divByStartEndTag     =   1
 
 # Flags
 flag.Sup_Div_Line   =   1
+flag.Project_Name   =   1
 flag.File_Name   =   1
 flag.Author   =   1
 flag.Team   =   0
-flag.Last_Edited   =   0
 flag.Created_Date   =   0
+flag.Last_Edited   =   0
 flag.Desc   =   1
 flag.Issue   =   1
 flag.Email   =   0
@@ -64,11 +65,16 @@ DFS 문제. 스택을 이용해 재귀 없이 풀어보았다."
 10799.h::desc       +=       "쇠막대기
 발상의 전환이 필요했던 문제. 아무리 생각해도 코드가 안 나와 구글에 검색해보고야
 풀 수 있었다."
+10972.h::desc       +=       "다음 순열
+is_sorted, next_permutation의 사용법을 익혀두자. 
+당연히 STL을 쓰지 않고 푸는 방법도 있다."
+10974.h::desc       +=       ""
 10988_palindrome.h::desc       +=       "팰린드롬인지 확인하기
 반복문으로 간단히 확인할 수 있다."
 10998.h::desc       +=       "A*B"
 11047_coin.h::desc       +=       "동전 0
 간단하게 풀 수 있는 문제."
+1110.h::desc       +=       ""
 11399_atm.h::desc       +=       "ATM
 간단한 그리디 알고리즘 문제. solve_11399에 처음 풀이를 적었는데 (비쥬얼 스튜디오로 실행),
 백준 컴파일러에서 돌아가지 않아 solve_11399_2로 풀어 제출했다."
@@ -103,6 +109,7 @@ cache[2], cache[3]엔 직접 값을 넣어준다 (base case)"
 그 외 배열을 delete로 제거하려 하니 백준 컴파일러에서 런타임 에러가 났었다.
 배열은 반드시 delete[]로 제거할 것."
 1874_stackSequence.h::desc       +=       "스택 수열"
+1912.h::desc       +=       ""
 1916.h::desc       +=       "최소비용 구하기
 다익스트라 알고리즘을 알고 있으면 풀 수 있는 문제.
 STL의 우선순위 큐를 이용했다.
@@ -111,7 +118,9 @@ STL의 우선순위 큐를 이용했다.
 계산기 작성에 이용한 알고리즘."
 1931_MeetingRoom.h::desc       +=       "회의실배정
 대표적인 그리디 문제. qsort를 이용하기 위해, descendingCompare를 구현함."
+1946.h::desc       +=       ""
 1966_printerQueue.h::desc       +=       "프린터 큐"
+1978.h::desc       +=       ""
 1987_Alphabet.h::desc       +=       "알파벳
 DFS 문제.
 solve_dfs 내에서 isInArray를 4번씩 호출해 배열에 들어 있는 값인지 검사했다."
@@ -121,6 +130,8 @@ solve_dfs 내에서 isInArray를 4번씩 호출해 배열에 들어 있는 값인지 검사했다."
 dist를 -1로 초기화해 놓고, while문에서 dist를 검사함으로써, dist를 isVisited 대신 쓸 수 있다."
 2193.h::desc       +=       "이친수"
 2217.h::desc       +=       "로프"
+2579.h::desc       +=       ""
+2606.h::desc       +=       ""
 2630.h::desc       +=       "색종이 만들기
 간단한 분할정복 문제."
 2667_floodFillWithDFS.h::desc       +=       "단지번호붙이기
@@ -186,9 +197,12 @@ for (int i = 0; i < N; i++) cin >> graph[i]; 와 같이 써서, 입력을 단순하게 받을 
 10610_30.h::refURLs       +=       ""
 1065.h::refURLs       +=       ""
 10799.h::refURLs       +=       ""
+10972.h::refURLs       +=       "https://kwanghyuk.tistory.com/25"
+10974.h::refURLs       +=       ""
 10988_palindrome.h::refURLs       +=       ""
 10998.h::refURLs       +=       ""
 11047_coin.h::refURLs       +=       ""
+1110.h::refURLs       +=       ""
 11399_atm.h::refURLs       +=       ""
 11403_searchPath.h::refURLs       +=       ""
 11724.h::refURLs       +=       ""
@@ -203,15 +217,20 @@ https://yabmoons.tistory.com/99"
 1725_Histogram.h::refURLs       +=       ""
 1753.h::refURLs       +=       ""
 1874_stackSequence.h::refURLs       +=       ""
+1912.h::refURLs       +=       ""
 1916.h::refURLs       +=       ""
 1918_inorder2PostOrder.h::refURLs       +=       ""
 1931_MeetingRoom.h::refURLs       +=       ""
+1946.h::refURLs       +=       ""
 1966_printerQueue.h::refURLs       +=       ""
+1978.h::refURLs       +=       ""
 1987_Alphabet.h::refURLs       +=       ""
 1992.h::refURLs       +=       ""
 2178_maze.h::refURLs       +=       ""
 2193.h::refURLs       +=       ""
 2217.h::refURLs       +=       ""
+2579.h::refURLs       +=       ""
+2606.h::refURLs       +=       ""
 2630.h::refURLs       +=       ""
 2667_floodFillWithDFS.h::refURLs       +=       ""
 2905_paintPlane.h::refURLs       +=       ""

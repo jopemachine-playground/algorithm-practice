@@ -116,6 +116,9 @@
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dynamic Programming/1003_Fibonacci.h">
 			<Option target="Algorithm"/>
 		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dynamic Programming/1912.h">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dynamic Programming/2193.h">
 			<Option target="Algorithm"/>
 		</Unit>
@@ -159,6 +162,9 @@
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Math/2997.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Permutation/10972.h">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Permutation/10974.h">

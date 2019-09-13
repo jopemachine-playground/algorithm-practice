@@ -8,9 +8,6 @@
 @    이용했다.
 ==============================+===============================================================
 */
-//
-// Created by wonma on 2019-06-30.
-//
 
 #ifndef ALGORITHM_1003_FIBONACCI_H
 #define ALGORITHM_1003_FIBONACCI_H
