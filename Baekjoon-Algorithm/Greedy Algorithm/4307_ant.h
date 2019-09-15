@@ -4,15 +4,13 @@
 @ Author : jopemachine
 @ Desc : 
 @    개미
+@ Ref URLs : 
+@    https://dojang.io/mod/page/view.php?id=638
 ==============================+===============================================================
 */
 #pragma once
 // to use unsafe function
 #pragma warning(disable: 4996)
-
-/*
-https://dojang.io/mod/page/view.php?id=638
-*/
 
 #include <iostream>
 #include <string>

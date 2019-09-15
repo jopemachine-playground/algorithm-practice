@@ -3,19 +3,15 @@
 @ File Name : 1725_Histogram.h
 @ Author : jopemachine
 @ Desc : 
+@    ** Fail **
 @    히스토그램
 @    풀다 일단 포기함. 세그먼트 트리란 자료구조를 이용해야 한다고 함.
+@ Ref URLs : 
+@    https://mygumi.tistory.com/177
+@    http://blog.naver.com/PostView.nhn?blogId=kks227&logNo=220781557098&parentCategoryNo=&categoryNo=299&viewDate=&isShowPopularPosts=false&from=postList
 ==============================+===============================================================
 */
-/*
-############################################################################
-############################################################################
-############################################################################
-############################### Fail #######################################
-############################################################################
-############################################################################
-############################################################################
-*/
+
 #pragma once
 // to use unsafe function
 #pragma warning(disable: 4996)
@@ -30,8 +26,6 @@
 
 using namespace std;
 
-// https://mygumi.tistory.com/177
-// http://blog.naver.com/PostView.nhn?blogId=kks227&logNo=220781557098&parentCategoryNo=&categoryNo=299&viewDate=&isShowPopularPosts=false&from=postList
 void solve_1725(){
 
     // 1 <= input <= 100,000

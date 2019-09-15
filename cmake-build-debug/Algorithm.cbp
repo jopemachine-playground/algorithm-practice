@@ -116,6 +116,9 @@
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dynamic Programming/1003_Fibonacci.h">
 			<Option target="Algorithm"/>
 		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dynamic Programming/12865.h">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dynamic Programming/1912.h">
 			<Option target="Algorithm"/>
 		</Unit>
@@ -126,6 +129,9 @@
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Graph/4963_numberOfIsland.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Greedy Algorithm/1049.h">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Greedy Algorithm/10610_30.h">

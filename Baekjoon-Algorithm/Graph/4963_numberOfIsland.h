@@ -2,6 +2,9 @@
 ==============================+===============================================================
 @ File Name : 4963_numberOfIsland.h
 @ Author : jopemachine
+@ Desc : 
+@    섬의 개수
+@    BFS로 간단하게 풀 수 있는 문제. 대각선까지 고려해야하므로 8개 방향으로 모두 완전탐색해야 한다.
 ==============================+===============================================================
 */
 
@@ -23,7 +26,9 @@ queue<pair<int, int>> que;
 
 bool solve_byBFS(pair<int, int> startVertex, int** map, int** dist){
 
-    bool isIsland = false;
+    if(map[startVertex.second][startVertex.first] != 1 || dist[startVertex.second][startVertex.first] != -1){
+        return false;
+    }
 
     dist[startVertex.second][startVertex.first] = 1;
 
@@ -34,61 +39,52 @@ bool solve_byBFS(pair<int, int> startVertex, int** map, int** dist){
         int row = que.front().first;
         int col = que.front().second;
 
-
         if ((row + 1 < W && row >= 0) && map[col][row + 1] == 1 && dist[col][row + 1] < 0) {
             que.push(make_pair(row + 1, col));
             dist[col][row + 1] = dist[col][row] + 1;
-            isIsland = true;
         }
 
         if ((col + 1 < H && col >= 0) && map[col + 1][row] == 1 && dist[col + 1][row] < 0) {
             que.push(make_pair(row, col + 1));
             dist[col + 1][row] = dist[col][row] + 1;
-            isIsland = true;
         }
 
         if (row - 1 >= 0 && map[col][row - 1] == 1 && dist[col][row - 1] < 0) {
             que.push(make_pair(row - 1, col));
             dist[col][row - 1] = dist[col][row] + 1;
-            isIsland = true;
         }
 
         if (col - 1 >= 0 && map[col - 1][row] == 1 && dist[col - 1][row] < 0) {
             que.push(make_pair(row, col - 1));
             dist[col - 1][row] = dist[col][row] + 1;
-            isIsland = true;
         }
 
 
         if(col - 1 >= 0 && (row + 1 < W && row >= 0) && map[col - 1][row + 1] == 1 && dist[col - 1][row + 1] < 0){
             que.push(make_pair(row + 1, col - 1));
             dist[col - 1][row + 1] = dist[col][row] + 1;
-            isIsland = true;
         }
 
 
         if((col + 1 < H && col >= 0) && (row + 1 < W && row >= 0) && map[col + 1][row + 1] == 1 && dist[col + 1][row + 1] < 0){
             que.push(make_pair(row + 1, col + 1));
             dist[col + 1][row + 1] = dist[col][row] + 1;
-            isIsland = true;
         }
 
         if((col + 1 < H && col >= 0) && row - 1 >= 0 && map[col + 1][row - 1] == 1 && dist[col + 1][row - 1] < 0){
             que.push(make_pair(row - 1, col + 1));
             dist[col + 1][row - 1] = dist[col][row] + 1;
-            isIsland = true;
         }
 
         if(col - 1 >= 0 && row - 1 >= 0 && map[col - 1][row - 1] == 1 && dist[col - 1][row - 1] < 0){
             que.push(make_pair(row - 1, col - 1));
             dist[col - 1][row - 1] = dist[col][row] + 1;
-            isIsland = true;
         }
 
         que.pop();
     }
 
-    return isIsland;
+    return true;
 }
 
 void solve_4963(){
@@ -106,7 +102,7 @@ void solve_4963(){
             break;
         }
 
-        map = new int*[H];
+        map  = new int*[H];
         dist = new int*[H];
 
         for(int i = 0; i < H; i++){

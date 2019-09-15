@@ -6,14 +6,13 @@
 @    ATM
 @    간단한 그리디 알고리즘 문제. solve_11399에 처음 풀이를 적었는데 (비쥬얼 스튜디오로 실행),
 @    백준 컴파일러에서 돌아가지 않아 solve_11399_2로 풀어 제출했다.
+@ Ref URLs : 
+@    http://blog.naver.com/PostView.nhn?blogId=occidere&logNo=220790825104&parentCategoryNo=&categoryNo=14&viewDate=&isShowPopularPosts=false&from=postView
 ==============================+===============================================================
 */
 #pragma once
 // to use unsafe function
 #pragma warning(disable: 4996)
-/*
-http://blog.naver.com/PostView.nhn?blogId=occidere&logNo=220790825104&parentCategoryNo=&categoryNo=14&viewDate=&isShowPopularPosts=false&from=postView
-*/
 
 #include <iostream>
 #include <string>

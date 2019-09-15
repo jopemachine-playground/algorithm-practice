@@ -7,9 +7,6 @@
 @    대표적인 그리디 문제. qsort를 이용하기 위해, descendingCompare를 구현함.
 ==============================+===============================================================
 */
-//
-// Created by wonma on 2019-06-30.
-//
 
 #ifndef ALGORITHM_1931_MEETINGROOM_H
 #define ALGORITHM_1931_MEETINGROOM_H

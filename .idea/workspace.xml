@@ -12,21 +12,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29261a73-88b5-4e4d-af78-d81f700ff407" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1912.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Permutation/10972.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/12865.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/1049.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/SelectionSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm-DS-Practice/Data-Structure/Sort/SelectionSort.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm.scps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm.scps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/14502.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/14502.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/1697.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/1697.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/2606.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/2606.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1003_Fibonacci.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1003_Fibonacci.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/2193.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/2193.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/7576.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/7576.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1912.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1912.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/2579.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/2579.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/9095.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/9095.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Graph/4963_numberOfIsland.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Graph/4963_numberOfIsland.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/11399_atm.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/11399_atm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/1931_MeetingRoom.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/1931_MeetingRoom.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/1946.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/1946.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/2217.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/2217.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/4307_ant.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/4307_ant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/5585.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/5585.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/1110.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/1110.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/1978.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Math/1978.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Permutation/10972.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Permutation/10972.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Permutation/10974.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Permutation/10974.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Queue/2905_paintPlane.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Queue/2905_paintPlane.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Recursion/11729_topOfHanoi.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Recursion/11729_topOfHanoi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Sort/1377_bubbleSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Sort/1377_bubbleSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/10799.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/10799.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/1725_Histogram.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/1725_Histogram.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/1918_inorder2PostOrder.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/1918_inorder2PostOrder.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/scproj" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/scproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" afterDir="false" />
@@ -61,6 +74,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1Q6SWdAUpIYusL7g79VJKJgxmLb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -190,6 +204,8 @@
       <workItem from="1568243659121" duration="4039000" />
       <workItem from="1568360017180" duration="1203000" />
       <workItem from="1568361954711" duration="10511000" />
+      <workItem from="1568427570740" duration="13869000" />
+      <workItem from="1568507007213" duration="5876000" />
     </task>
     <servers />
   </component>
@@ -233,6 +249,8 @@
         <watch expression="K;" />
         <watch expression="maxDist" />
         <watch expression="vec" />
+        <watch expression="cache" />
+        <watch expression="cache" />
       </configuration>
     </watches-manager>
   </component>

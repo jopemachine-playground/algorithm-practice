@@ -23,28 +23,28 @@
 
 using namespace std;
 
-template<class T>
-void swap(T& a, T& b) {
-    T temp = a;
-    a = b;
-    b = temp;
-}
-
-void solve_10972(){
-    int N;
-    cin >> N;
-    int arr[N];
-    string input = "";
-    vector<string> permutations;
-
-    for (int i = 0; i < N; i++) {
-        string t;
-        cin >> t;
-        input += t + " ";
-        arr[i] = i + 1;
-    }
-
-}
+//template<class T>
+//void swap(T& a, T& b) {
+//    T temp = a;
+//    a = b;
+//    b = temp;
+//}
+//
+//void solve_10972(){
+//    int N;
+//    cin >> N;
+//    int arr[N];
+//    string input = "";
+//    vector<string> permutations;
+//
+//    for (int i = 0; i < N; i++) {
+//        string t;
+//        cin >> t;
+//        input += t + " ";
+//        arr[i] = i + 1;
+//    }
+//
+//}
 
 void solve_10972_bySTL(){
 

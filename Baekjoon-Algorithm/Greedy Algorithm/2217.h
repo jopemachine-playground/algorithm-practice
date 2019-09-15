@@ -6,9 +6,6 @@
 @    로프
 ==============================+===============================================================
 */
-//
-// Created by jopem on 2019-09-02.
-//
 
 #ifndef ALGORITHM_2217_H
 #define ALGORITHM_2217_H
@@ -35,7 +32,7 @@ int ascendingCompare(const void* a, const void* b)
 }
 
 void solve_2217(){
-    //N(1��N��100,000)
+
     int N;
     cin >> N;
 
