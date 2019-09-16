@@ -122,32 +122,32 @@ Algorithm/fast:
 	$(MAKE) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-test.obj: test.cpp.obj
+t.obj: t.cpp.obj
 
-.PHONY : test.obj
+.PHONY : t.obj
 
 # target to build an object file
-test.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/test.cpp.obj
-.PHONY : test.cpp.obj
+t.cpp.obj:
+	$(MAKE) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/t.cpp.obj
+.PHONY : t.cpp.obj
 
-test.i: test.cpp.i
+t.i: t.cpp.i
 
-.PHONY : test.i
+.PHONY : t.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/test.cpp.i
-.PHONY : test.cpp.i
+t.cpp.i:
+	$(MAKE) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/t.cpp.i
+.PHONY : t.cpp.i
 
-test.s: test.cpp.s
+t.s: t.cpp.s
 
-.PHONY : test.s
+.PHONY : t.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/test.cpp.s
-.PHONY : test.cpp.s
+t.cpp.s:
+	$(MAKE) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/t.cpp.s
+.PHONY : t.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Algorithm
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... t.obj
+	@echo ... t.i
+	@echo ... t.s
 .PHONY : help
 
 

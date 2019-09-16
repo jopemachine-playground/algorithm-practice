@@ -104,6 +104,12 @@
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/10950.h">
 			<Option target="Algorithm"/>
 		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/10951.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/10952.h">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/11021.h">
 			<Option target="Algorithm"/>
 		</Unit>
@@ -116,10 +122,16 @@
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/2562.h">
 			<Option target="Algorithm"/>
 		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/2588.h">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/2739.h">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/2920.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/8393.h">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/DFS/11724.h">
@@ -156,6 +168,9 @@
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dynamic Programming/2193.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dynamic Programming/2748.h">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Dynamic Programming/9095.h">
@@ -218,7 +233,7 @@
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Sort/1377_bubbleSort.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="C:/Algorithm-DS-Practice/test.cpp">
+		<Unit filename="C:/Algorithm-DS-Practice/t.cpp">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/CMakeLists.txt">

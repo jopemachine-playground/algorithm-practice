@@ -56,27 +56,27 @@ include CMakeFiles/Algorithm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Algorithm.dir/flags.make
 
-CMakeFiles/Algorithm.dir/test.cpp.obj: CMakeFiles/Algorithm.dir/flags.make
-CMakeFiles/Algorithm.dir/test.cpp.obj: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Algorithm-DS-Practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm.dir/test.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithm.dir\test.cpp.obj -c C:\Algorithm-DS-Practice\test.cpp
+CMakeFiles/Algorithm.dir/t.cpp.obj: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/t.cpp.obj: ../t.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Algorithm-DS-Practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm.dir/t.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithm.dir\t.cpp.obj -c C:\Algorithm-DS-Practice\t.cpp
 
-CMakeFiles/Algorithm.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/test.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Algorithm-DS-Practice\test.cpp > CMakeFiles\Algorithm.dir\test.cpp.i
+CMakeFiles/Algorithm.dir/t.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/t.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Algorithm-DS-Practice\t.cpp > CMakeFiles\Algorithm.dir\t.cpp.i
 
-CMakeFiles/Algorithm.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/test.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Algorithm-DS-Practice\test.cpp -o CMakeFiles\Algorithm.dir\test.cpp.s
+CMakeFiles/Algorithm.dir/t.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/t.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Algorithm-DS-Practice\t.cpp -o CMakeFiles\Algorithm.dir\t.cpp.s
 
 # Object files for target Algorithm
 Algorithm_OBJECTS = \
-"CMakeFiles/Algorithm.dir/test.cpp.obj"
+"CMakeFiles/Algorithm.dir/t.cpp.obj"
 
 # External object files for target Algorithm
 Algorithm_EXTERNAL_OBJECTS =
 
-Algorithm.exe: CMakeFiles/Algorithm.dir/test.cpp.obj
+Algorithm.exe: CMakeFiles/Algorithm.dir/t.cpp.obj
 Algorithm.exe: CMakeFiles/Algorithm.dir/build.make
 Algorithm.exe: CMakeFiles/Algorithm.dir/linklibs.rsp
 Algorithm.exe: CMakeFiles/Algorithm.dir/objects1.rsp
