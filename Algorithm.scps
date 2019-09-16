@@ -90,6 +90,18 @@ dfs로 풀 수 있다는데 방법을 모르겠어서 찾아봤다. 찾아보고 dfs로 완전 탐색해서
 11724.h::desc       +=       "연결 요소의 갯수
 DFS를 이용하면 간단히 해결할 수 있다. 고립되어 있는 점들도 연결 요소로 카운팅해야 한다.
 그 외 무향 그래프라는 것에 주의"
+11726.h::desc       +=       "2 * n 타일링
+이런 종류의 DP 문제는 끙끙 앓으며 머리로 생각하는 것 보다 그림으로 몇 번 그려보면
+점화식이 쉽게 보여 풀 수 있었다.
+
+왜 이렇게 풀리는 지 궁금해서 찾아보니,
+왼쪽부터 오른쪽으로 채워나간다고 한다면, 2 x n개의 타일을 채우는 방법은
+ 2 x (n - 1)개까지 채운 것의 오른쪽에 2 x 1 타일을 붙이는 경우와,  2 x (n - 2)개
+까지 채운 것의 오른쪽에 1 x 2 타일을 2개 붙이는 경우로 나눌 수 있기 때문이라고 한다.
+
+그 외 10007이란 10000보다 큰 최소의 소수로 중간 답을 나눠 오버 플로우가 나지 않게 해야
+한다는 것도 알아두자
+(결과 값을 10007로 %한 것과 중간 결과마다 10007로 %한 결과가 같다!)"
 11729_topOfHanoi.h::desc       +=       "** Fail **
 하노이 탑 이동 순서"
 1260_dfsAndBfs.h::desc       +=       "DFS와 BFS
@@ -113,6 +125,9 @@ DFS로 가능한 모든 경우 (조합)을 만들고 Brute Force로 각 경우들을 점검하면서 안전
 1463.h::desc       +=       "1로 만들기
 반복문을 돌면서 cache에 값들을 저장하면서 주어진 input 까지 반복문을 돌면 된다.
 cache[2], cache[3]엔 직접 값을 넣어준다 (base case)"
+1541.h::desc       +=       "잃어버린 괄호
+한 번 마이너스가 나오면 그 뒤는 전부 뺄셈으로 처리하면 된다.
+c++엔 split이 없어서 필요할 때 구현해야 된다. 구현을 잘 알아두도록 하자."
 1697.h::desc       +=       "숨바꼭질
 항상 bfs, dfs는 이차원 배열로 나타나는 그래프에서만 사용해봐서 이 문제가 bfs로 풀 수 있는 유형이란 걸 몰랐다.
 
@@ -151,6 +166,9 @@ DFS 문제.
 solve_dfs 내에서 isInArray를 4번씩 호출해 배열에 들어 있는 값인지 검사했다."
 1992.h::desc       +=       "쿼드트리
 문제 출력이 복잡해보이는데, divide란 함수를 정의해놓고 분할정복으로 푸니 간단했다."
+2156.h::desc       +=       "포도주 시식
+계단 오르기와 거의 똑같은 문제. 다만 이 문제에선, 반복문에서 i 번째 포도주를 마시지 않는다는 선택지를
+함께 고려해야 한다."
 2178_maze.h::desc       +=       "미로 탐색
 dist를 -1로 초기화해 놓고, while문에서 dist를 검사함으로써, dist를 isVisited 대신 쓸 수 있다."
 2193.h::desc       +=       "이친수"
@@ -249,6 +267,7 @@ https://yabmoons.tistory.com/99
 https://twpower.github.io/90-combination-by-using-next_permutation
 https://jeonggyun.tistory.com/175"
 1463.h::refURLs       +=       ""
+1541.h::refURLs       +=       "https://twinw.tistory.com/220"
 1697.h::refURLs       +=       "https://hsp1116.tistory.com/20"
 1725_Histogram.h::refURLs       +=       "https://mygumi.tistory.com/177
 http://blog.naver.com/PostView.nhn?blogId=kks227&logNo=220781557098&parentCategoryNo=&categoryNo=299&viewDate=&isShowPopularPosts=false&from=postList"
@@ -263,6 +282,7 @@ http://blog.naver.com/PostView.nhn?blogId=kks227&logNo=220781557098&parentCatego
 1978.h::refURLs       +=       ""
 1987_Alphabet.h::refURLs       +=       ""
 1992.h::refURLs       +=       ""
+2156.h::refURLs       +=       ""
 2178_maze.h::refURLs       +=       ""
 2193.h::refURLs       +=       ""
 2217.h::refURLs       +=       ""

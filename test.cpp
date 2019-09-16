@@ -1,9 +1,7 @@
-#include <iostream>
-
-#include "Baekjoon-Algorithm/BFS/14502.h"
-// #include "Algorithm-DS-Practice/Data-Structure/List/ArrayList.h"
+#include "Baekjoon-Algorithm/Basic/2920.h"
+// #include "Algorithm-DS-Practice/Data:-Structure/List/ArrayList.h"
 // #include "Baekjoon-Algorithm/DFS/11724.h"
 
 int main() {
-    solve_14502();
+    solve_2920();
 }

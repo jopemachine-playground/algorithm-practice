@@ -12,9 +12,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29261a73-88b5-4e4d-af78-d81f700ff407" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/10818.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/10950.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/11021.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/11654.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/11720.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2562.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2739.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2920.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1149.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/11726.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/2156.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Greedy Algorithm/1541.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm.scps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm.scps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/14502.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/14502.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/scproj" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/scproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
@@ -60,7 +74,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -180,6 +194,10 @@
       <workItem from="1568507007213" duration="5876000" />
       <workItem from="1568529593190" duration="7368000" />
       <workItem from="1568545744798" duration="5672000" />
+      <workItem from="1568591704728" duration="425000" />
+      <workItem from="1568592147376" duration="2614000" />
+      <workItem from="1568630068162" duration="25000" />
+      <workItem from="1568630101987" duration="9937000" />
     </task>
     <servers />
   </component>
