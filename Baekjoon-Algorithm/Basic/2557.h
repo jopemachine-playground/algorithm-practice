@@ -6,7 +6,4 @@ void solve_2557(){
     printf("Hello World!");
 }
 
-
-
-
 #endif //ALGORITHM_2557_H
