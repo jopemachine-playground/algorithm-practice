@@ -12,15 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29261a73-88b5-4e4d-af78-d81f700ff407" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/10817.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/11022.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/15552.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2438.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2439.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2741.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2742.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic String/10809.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/10871.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/1546.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2577.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/3052.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/8958.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2557.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2557.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/String process/10988_palindrome.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic String/10988_palindrome.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" afterDir="false" />
@@ -197,6 +196,8 @@
       <workItem from="1568715004575" duration="6756000" />
       <workItem from="1568726103003" duration="1113000" />
       <workItem from="1568811652467" duration="98000" />
+      <workItem from="1568815385764" duration="5294000" />
+      <workItem from="1568891202733" duration="6272000" />
     </task>
     <servers />
   </component>
@@ -243,6 +244,8 @@
         <watch expression="cache" />
         <watch expression="cache" />
         <watch expression="select[25]" />
+        <watch expression="que" />
+        <watch expression="que" />
       </configuration>
     </watches-manager>
   </component>
