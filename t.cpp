@@ -3,5 +3,5 @@
 // #include "Baekjoon-Algorithm/DFS/11724.h"
 
 int main() {
-    solve_1149();
+    solve();
 }

@@ -14,7 +14,6 @@
 
 #include <iostream>
 
-
 using namespace std;
 
 int swapNumber = 0;
