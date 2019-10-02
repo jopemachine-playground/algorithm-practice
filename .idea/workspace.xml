@@ -12,30 +12,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29261a73-88b5-4e4d-af78-d81f700ff407" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/11727.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/2293.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/9461.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1904.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm.scps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm.scps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic String/10809.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic String/10809.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/10817.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/10817.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/10871.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/10871.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/11022.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/11022.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/1546.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/1546.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/15552.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/15552.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2438.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2438.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2439.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2439.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2577.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2577.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2741.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2741.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2742.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2742.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/3052.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/3052.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/4344.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/4344.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/8958.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/8958.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/10844.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/10844.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1149.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1149.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/11727.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/11727.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1932.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1932.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/2293.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/2293.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/9461.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/9461.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Sort/2750.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Sort/2750.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/scproj" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/scproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithm.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/t.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -210,6 +215,7 @@
       <workItem from="1569138875703" duration="225000" />
       <workItem from="1569907556089" duration="1855000" />
       <workItem from="1569916216075" duration="5211000" />
+      <workItem from="1569972254872" duration="2455000" />
     </task>
     <servers />
   </component>

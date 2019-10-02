@@ -54,6 +54,9 @@ DP 기초 문제. cacheZero, cacheOne이란 int형 배열 2개를 만들어 반복문에서 주어진 
 1008.h::desc       +=       "A/B"
 1012_dfsWithStack.h::desc       +=       "유기농 배추
 DFS 문제. 스택을 이용해 재귀 없이 풀어보았다."
+10171.h::desc       +=       ""
+10172.h::desc       +=       ""
+10430.h::desc       +=       ""
 1049.h::desc       +=       "기타줄
 패키지의 최소 가격과 낱개의 최소 가격을 구한 후 최소 가격으로 살 수 있는 케이스를 3개 나눠 그 중 최소값을 구하니
 쉽게 풀 수 있었다"
@@ -65,10 +68,22 @@ DFS 문제. 스택을 이용해 재귀 없이 풀어보았다."
 1번으로 다시 풀었다. 처음에 풀었던 것은 버리지 않고 2번 풀이로 뒀다."
 1065.h::desc       +=       "한수
 단순한 brute force 문제."
+10718.h::desc       +=       ""
 10799.h::desc       +=       "** Fail **
 쇠막대기
 발상의 전환이 필요했던 문제. 아무리 생각해도 코드가 안 나와 구글에 검색해보고야
 풀 수 있었다."
+10809.h::desc       +=       ""
+10817.h::desc       +=       ""
+10818.h::desc       +=       ""
+10844.h::desc       +=       "쉬운 계단수
+점화식을 도저히 찾을 수가 없었다. 점화식을 만들 때, n번째 길이의 계단 수 갯수를 
+뒤에 어떤 숫자가 오는지에 따라 케이스를 나누기 위해, 이차원 배열로 만들면 점화식이 구해진다."
+10869.h::desc       +=       ""
+10871.h::desc       +=       ""
+10950.h::desc       +=       ""
+10951.h::desc       +=       ""
+10952.h::desc       +=       ""
 10972.h::desc       +=       "다음 순열
 is_sorted, next_permutation의 사용법을 익혀두자. 
 당연히 STL을 쓰지 않고 푸는 방법도 있다."
@@ -79,6 +94,8 @@ dfs로 풀 수 있다는데 방법을 모르겠어서 찾아봤다. 찾아보고 dfs로 완전 탐색해서
 10988_palindrome.h::desc       +=       "팰린드롬인지 확인하기
 반복문으로 간단히 확인할 수 있다."
 10998.h::desc       +=       "A*B"
+11021.h::desc       +=       ""
+11022.h::desc       +=       ""
 11047_coin.h::desc       +=       "동전 0
 간단하게 풀 수 있는 문제."
 1110.h::desc       +=       "더하기 사이클"
@@ -87,6 +104,11 @@ dfs로 풀 수 있다는데 방법을 모르겠어서 찾아봤다. 찾아보고 dfs로 완전 탐색해서
 백준 컴파일러에서 돌아가지 않아 solve_11399_2로 풀어 제출했다."
 11403_searchPath.h::desc       +=       "경로 찾기
 풀다 만 문제."
+1149.h::desc       +=       "RGB 거리
+길이와 세 개의 색깔을 칠할 때의 각각의 경우를 사용해 이차원 배열을 만들어야 한다.
+그리고 n 번째 집을 칠할 때 각각의 색깔에 따라 케이스를 나눠 점화식을 세워주면 풀린다."
+11654.h::desc       +=       ""
+11720.h::desc       +=       ""
 11724.h::desc       +=       "연결 요소의 갯수
 DFS를 이용하면 간단히 해결할 수 있다. 고립되어 있는 점들도 연결 요소로 카운팅해야 한다.
 그 외 무향 그래프라는 것에 주의"
@@ -102,6 +124,7 @@ DFS를 이용하면 간단히 해결할 수 있다. 고립되어 있는 점들도 연결 요소로 카운팅해�
 그 외 10007이란 10000보다 큰 최소의 소수로 중간 답을 나눠 오버 플로우가 나지 않게 해야
 한다는 것도 알아두자
 (결과 값을 10007로 %한 것과 중간 결과마다 10007로 %한 결과가 같다!)"
+11727.h::desc       +=       ""
 11729_topOfHanoi.h::desc       +=       "** Fail **
 하노이 탑 이동 순서"
 1260_dfsAndBfs.h::desc       +=       "DFS와 BFS
@@ -114,6 +137,7 @@ DP 문제라는데 어떻게 풀 지 도저히 모르겠어서 종만북을 코드를 참고해 풀었다.
 물건을 담으면 위와 pack(allItems, cache, capacity - allItems[index].weight, index + 1, itemMaxNumber) + allItems[index].value)가
 ret가 되므로 둘 중 큰 값을 ret로 하고 리턴하면 완전 탐색되어 풀린다.
 중요한 것은 ret를 캐시에 저장해서 메모리제이션 할 것."
+1330.h::desc       +=       ""
 1377_bubbleSort.h::desc       +=       "** Fail **
 버블 소트
 풀다 만 문제. 생각보다 어려운 개념을 요구했음."
@@ -128,6 +152,8 @@ cache[2], cache[3]엔 직접 값을 넣어준다 (base case)"
 1541.h::desc       +=       "잃어버린 괄호
 한 번 마이너스가 나오면 그 뒤는 전부 뺄셈으로 처리하면 된다.
 c++엔 split이 없어서 필요할 때 구현해야 된다. 구현을 잘 알아두도록 하자."
+1546.h::desc       +=       ""
+15552.h::desc       +=       ""
 1697.h::desc       +=       "숨바꼭질
 항상 bfs, dfs는 이차원 배열로 나타나는 그래프에서만 사용해봐서 이 문제가 bfs로 풀 수 있는 유형이란 걸 몰랐다.
 
@@ -143,6 +169,9 @@ c++엔 split이 없어서 필요할 때 구현해야 된다. 구현을 잘 알아두도록 하자."
 그 외 배열을 delete로 제거하려 하니 백준 컴파일러에서 런타임 에러가 났었다.
 배열은 반드시 delete[]로 제거할 것."
 1874_stackSequence.h::desc       +=       "스택 수열"
+1904.h::desc       +=       "01 타일
+길이가 n인 01 수열 뒤에 올 수 있는 경우의 수는 길이가 n-1인 경우의 수에 1을 붙인 것이나,
+길이가 n-2인 경우의 수에 00을 붙인 것을 더해주면 구할 수 있다."
 1912.h::desc       +=       "연속합
 짜고 나니 정말 간단했지만, 어떻게 풀 수 있는지 잘 보이지 않았던 문제
 반복문에서 지금 원소가 0보다 작을 때 Sum을 현재 input으로 초기화 해 주면 풀린다."
@@ -155,6 +184,11 @@ STL의 우선순위 큐를 이용했다.
 계산기 작성에 이용한 알고리즘."
 1931_MeetingRoom.h::desc       +=       "회의실배정
 대표적인 그리디 문제. qsort를 이용하기 위해, descendingCompare를 구현함."
+1932.h::desc       +=       "정수 삼각형
+뒤에서 부터 생각해야 했던 문제. 메모이제이션할 배열은 i 번째 레벨의 j번째 수로,
+이차원 배열로 생각해야 한다. 그럼 i 번째 레벨의 j번째 수는
+i-1번째 수의 j-1번째 수 (위 레벨의 왼쪽 DP 값) 과 i번째 수의 j번째 수 (위 레벨의 
+오른쪽 DP 값) 중 큰 수에 arr[i][j]를 더해준 값이 된다."
 1946.h::desc       +=       "신입 사원
 A 점수로 오름차순으로 정렬해 준 다음 B 점수에서 내림차순에 어긋나는 인원들을
 제외하니 쉽게 풀림."
@@ -173,8 +207,15 @@ solve_dfs 내에서 isInArray를 4번씩 호출해 배열에 들어 있는 값인지 검사했다."
 dist를 -1로 초기화해 놓고, while문에서 dist를 검사함으로써, dist를 isVisited 대신 쓸 수 있다."
 2193.h::desc       +=       "이친수"
 2217.h::desc       +=       "로프"
+2293.h::desc       +=       ""
+2438.h::desc       +=       ""
+2439.h::desc       +=       ""
+2557.h::desc       +=       ""
+2562.h::desc       +=       ""
+2577.h::desc       +=       ""
 2579.h::desc       +=       "** Fail **
 계단 오르기"
+2588.h::desc       +=       ""
 2606.h::desc       +=       "바이러스
 BFS 문제. 노드들을 중복해 카운팅하지 않기 위해 linked란 vector<int>를 만들고 중복되면 linked에
 넣지 않았다."
@@ -182,22 +223,38 @@ BFS 문제. 노드들을 중복해 카운팅하지 않기 위해 linked란 vector<int>를 만들고 중�
 간단한 분할정복 문제."
 2667_floodFillWithDFS.h::desc       +=       "단지번호붙이기
 DFS 문제"
+2739.h::desc       +=       ""
+2741.h::desc       +=       ""
+2742.h::desc       +=       ""
+2748.h::desc       +=       ""
+2750.h::desc       +=       ""
+2753.h::desc       +=       ""
 2905_paintPlane.h::desc       +=       "** Fail **"
+2920.h::desc       +=       ""
 2997.h::desc       +=       "네 번째 수"
+3052.h::desc       +=       ""
 3986_Goodword.h::desc       +=       "좋은 단어
 마지막에 스택이 clear 된다면 좋은 단어이고,
 스택이 비어 있지 않다면 좋은 단어가 아니다."
 4307_ant.h::desc       +=       "개미"
+4344.h::desc       +=       ""
 4963_numberOfIsland.h::desc       +=       "섬의 개수
 BFS로 간단하게 풀 수 있는 문제. 대각선까지 고려해야하므로 8개 방향으로 모두 완전탐색해야 한다."
 5585.h::desc       +=       "거스름돈"
+7287.h::desc       +=       ""
 7576.h::desc       +=       "토마토
 처음에, BFS인 건 맞는데 시작점이 여러 개면 어떻게 풀지? 하고 해맸던 문제.
 시작점이 여러 개면 그냥 큐에 여러 시작점들 push하고 BFS 돌리면 되지 않을까?
 싶어서 그렇게 풀고 맞았다."
+8393.h::desc       +=       ""
+8958.h::desc       +=       ""
 9012_Parentheses.h::desc       +=       "괄호"
 9095.h::desc       +=       "** Fail **
 1, 2, 3 더하기"
+9461.h::desc       +=       "파도반 수열
+규칙성만 찾으면 간단히 풀 수 있는 문제.
+피보나치 수열과 비슷한 점화식을 갖고 있음."
+9498.h::desc       +=       ""
 
 # Issue
 1000.h::issue       +=       ""
@@ -245,22 +302,43 @@ for (int i = 0; i < N; i++) cin >> graph[i]; 와 같이 써서, 입력을 단순하게 받을 
 1003_Fibonacci.h::refURLs       +=       ""
 1008.h::refURLs       +=       ""
 1012_dfsWithStack.h::refURLs       +=       ""
+10171.h::refURLs       +=       ""
+10172.h::refURLs       +=       ""
+10430.h::refURLs       +=       ""
 1049.h::refURLs       +=       ""
 10610_30.h::refURLs       +=       ""
 1065.h::refURLs       +=       ""
+10718.h::refURLs       +=       ""
 10799.h::refURLs       +=       ""
+10809.h::refURLs       +=       ""
+10817.h::refURLs       +=       ""
+10818.h::refURLs       +=       ""
+10844.h::refURLs       +=       "https://js1jj2sk3.tistory.com/38"
+10869.h::refURLs       +=       ""
+10871.h::refURLs       +=       ""
+10950.h::refURLs       +=       ""
+10951.h::refURLs       +=       ""
+10952.h::refURLs       +=       ""
 10972.h::refURLs       +=       "https://kwanghyuk.tistory.com/25"
 10974.h::refURLs       +=       ""
 10988_palindrome.h::refURLs       +=       ""
 10998.h::refURLs       +=       ""
+11021.h::refURLs       +=       ""
+11022.h::refURLs       +=       ""
 11047_coin.h::refURLs       +=       ""
 1110.h::refURLs       +=       ""
 11399_atm.h::refURLs       +=       "http://blog.naver.com/PostView.nhn?blogId=occidere&logNo=220790825104&parentCategoryNo=&categoryNo=14&viewDate=&isShowPopularPosts=false&from=postView"
 11403_searchPath.h::refURLs       +=       ""
+1149.h::refURLs       +=       ""
+11654.h::refURLs       +=       ""
+11720.h::refURLs       +=       ""
 11724.h::refURLs       +=       ""
+11726.h::refURLs       +=       ""
+11727.h::refURLs       +=       ""
 11729_topOfHanoi.h::refURLs       +=       ""
 1260_dfsAndBfs.h::refURLs       +=       ""
 12865.h::refURLs       +=       "프로그래밍 대회에서 배우는 알고리즘 해결 전략 284 페이지"
+1330.h::refURLs       +=       ""
 1377_bubbleSort.h::refURLs       +=       ""
 14502.h::refURLs       +=       "https://gorakgarak.tistory.com/523
 https://yabmoons.tistory.com/99
@@ -268,15 +346,19 @@ https://twpower.github.io/90-combination-by-using-next_permutation
 https://jeonggyun.tistory.com/175"
 1463.h::refURLs       +=       ""
 1541.h::refURLs       +=       "https://twinw.tistory.com/220"
+1546.h::refURLs       +=       ""
+15552.h::refURLs       +=       ""
 1697.h::refURLs       +=       "https://hsp1116.tistory.com/20"
 1725_Histogram.h::refURLs       +=       "https://mygumi.tistory.com/177
 http://blog.naver.com/PostView.nhn?blogId=kks227&logNo=220781557098&parentCategoryNo=&categoryNo=299&viewDate=&isShowPopularPosts=false&from=postList"
 1753.h::refURLs       +=       ""
 1874_stackSequence.h::refURLs       +=       ""
+1904.h::refURLs       +=       ""
 1912.h::refURLs       +=       ""
 1916.h::refURLs       +=       ""
 1918_inorder2PostOrder.h::refURLs       +=       ""
 1931_MeetingRoom.h::refURLs       +=       ""
+1932.h::refURLs       +=       ""
 1946.h::refURLs       +=       ""
 1966_printerQueue.h::refURLs       +=       ""
 1978.h::refURLs       +=       ""
@@ -286,18 +368,39 @@ http://blog.naver.com/PostView.nhn?blogId=kks227&logNo=220781557098&parentCatego
 2178_maze.h::refURLs       +=       ""
 2193.h::refURLs       +=       ""
 2217.h::refURLs       +=       ""
+2293.h::refURLs       +=       ""
+2438.h::refURLs       +=       ""
+2439.h::refURLs       +=       ""
+2557.h::refURLs       +=       ""
+2562.h::refURLs       +=       ""
+2577.h::refURLs       +=       ""
 2579.h::refURLs       +=       ""
+2588.h::refURLs       +=       ""
 2606.h::refURLs       +=       ""
 2630.h::refURLs       +=       ""
 2667_floodFillWithDFS.h::refURLs       +=       ""
+2739.h::refURLs       +=       ""
+2741.h::refURLs       +=       ""
+2742.h::refURLs       +=       ""
+2748.h::refURLs       +=       ""
+2750.h::refURLs       +=       ""
+2753.h::refURLs       +=       ""
 2905_paintPlane.h::refURLs       +=       "https://jaimemin.tistory.com/832"
+2920.h::refURLs       +=       ""
 2997.h::refURLs       +=       ""
+3052.h::refURLs       +=       ""
 3986_Goodword.h::refURLs       +=       ""
 4307_ant.h::refURLs       +=       "https://dojang.io/mod/page/view.php?id=638"
+4344.h::refURLs       +=       ""
 4963_numberOfIsland.h::refURLs       +=       ""
 5585.h::refURLs       +=       ""
+7287.h::refURLs       +=       ""
 7576.h::refURLs       +=       ""
+8393.h::refURLs       +=       ""
+8958.h::refURLs       +=       ""
 9012_Parentheses.h::refURLs       +=       ""
 9095.h::refURLs       +=       "https://nhs0912.tistory.com/62"
+9461.h::refURLs       +=       ""
+9498.h::refURLs       +=       ""
 
 # Excluded files
