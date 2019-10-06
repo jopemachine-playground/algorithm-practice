@@ -92,6 +92,9 @@
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/BFS/2178_maze.h">
 			<Option target="Algorithm"/>
 		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/BFS/2206.h">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/BFS/2606.h">
 			<Option target="Algorithm"/>
 		</Unit>
@@ -99,6 +102,9 @@
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/10818.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/10872.h">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/10950.h">
@@ -128,10 +134,16 @@
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/2739.h">
 			<Option target="Algorithm"/>
 		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/2884.h">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/2920.h">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Basic/8393.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Brute Force/2798.h">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/DFS/11724.h">
@@ -245,6 +257,12 @@
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Permutation/10974.h">
 			<Option target="Algorithm"/>
 		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Queue/11866.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Queue/2164.h">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Queue/2905_paintPlane.h">
 			<Option target="Algorithm"/>
 		</Unit>
@@ -252,6 +270,9 @@
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Sort/2750.h">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="C:/Algorithm-DS-Practice/Baekjoon-Algorithm/Stack/10773.h">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="C:/Algorithm-DS-Practice/t.cpp">

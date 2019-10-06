@@ -12,31 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29261a73-88b5-4e4d-af78-d81f700ff407" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1904.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/BFS/2206.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/10872.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2884.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Brute Force/2798.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Queue/11866.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Queue/2164.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Stack/10773.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm.scps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm.scps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic String/10809.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic String/10809.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/10817.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/10817.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/10871.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/10871.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/11022.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/11022.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/1546.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/1546.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/15552.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/15552.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2438.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2438.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2439.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2439.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2577.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2577.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2741.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2741.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2742.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/2742.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/3052.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/3052.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/4344.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/4344.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/8958.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Basic/8958.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/10844.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/10844.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1149.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1149.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/11727.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/11727.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1932.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/1932.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/2293.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/2293.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/9461.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Dynamic Programming/9461.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/Sort/2750.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/Sort/2750.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon-Algorithm/scproj" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon-Algorithm/scproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.exe" afterDir="false" />
@@ -216,6 +199,15 @@
       <workItem from="1569907556089" duration="1855000" />
       <workItem from="1569916216075" duration="5211000" />
       <workItem from="1569972254872" duration="2455000" />
+      <workItem from="1570000574554" duration="1903000" />
+      <workItem from="1570085675805" duration="6541000" />
+      <workItem from="1570106198137" duration="2302000" />
+      <workItem from="1570177227559" duration="8879000" />
+      <workItem from="1570195072795" duration="3899000" />
+      <workItem from="1570233825232" duration="1304000" />
+      <workItem from="1570235163948" duration="930000" />
+      <workItem from="1570257522154" duration="8110000" />
+      <workItem from="1570348474504" duration="1072000" />
     </task>
     <servers />
   </component>
@@ -250,6 +242,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Baekjoon-Algorithm/BFS/2206.h</url>
+          <line>85</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="tempN" />
@@ -267,6 +268,8 @@
         <watch expression="dp" />
         <watch expression="arr" />
         <watch expression="f" />
+        <watch expression="map" />
+        <watch expression="que" />
       </configuration>
     </watches-manager>
   </component>
