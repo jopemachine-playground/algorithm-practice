@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Algorithm.dir/t.cpp.obj"
-  "Algorithm.pdb"
   "Algorithm.exe"
   "Algorithm.exe.manifest"
+  "Algorithm.pdb"
+  "CMakeFiles/Algorithm.dir/t.cpp.obj"
   "libAlgorithm.dll.a"
 )
 
