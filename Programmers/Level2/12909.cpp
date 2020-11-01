@@ -1,4 +1,4 @@
-#include <string>
+#include<string>
 #include <iostream>
 #include <stack>
 
@@ -6,6 +6,8 @@ using namespace std;
 
 bool solution(string s)
 {
+    if (s.length() < 1) return false;
+
     stack<char> stk;
     
     for (auto ch : s) {
@@ -13,10 +15,10 @@ bool solution(string s)
             stk.push(ch);
         }
         else if (ch == ')') {
-            if (stk.top() != '(') {
+            if (stk.empty() || stk.top() != '(') {
                 return false;
             }
-            stk.push(ch);
+            stk.pop();
         }
     }
 
