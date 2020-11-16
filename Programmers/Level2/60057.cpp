@@ -9,12 +9,12 @@ int solution(string s) {
     int answer = s.length();
 
     // length should be greater than 0 and less than (len / 2) + 1
-    for (int len = 0; len <= s.length() / 2; ++len) {
+    for (int len = 1; len <= s.length() / 2; ++len) {
         string compressedStr = "";
         string repeatedStr = s.substr(0, len);
         int cnt = 1;
 
-        for (int j = len; j < s.length(); j += len) {
+        for (int j = len; j <= s.length(); j += len) {
             if (repeatedStr == s.substr(j, len)) {
                 ++cnt;
             }
