@@ -22,3 +22,9 @@
 
 - 프로젝트 경로에 한글명이 있으면 빌드되지 않음
 - Run 버튼이 활성화되지 않는다면,  `Tools > CMake > Reload cmake Project` 를 클릭하면 활성화 된다.
+
+<h2>CLI</h2>
+
+```
+g++ -std=gnu++17 t.cpp && ./a.out < input
+```
