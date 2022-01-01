@@ -1,14 +1,15 @@
-const getCombination = (arr, r, idx = 0, targetIdx = 0, selected = []) => {
+// nCr => n (arr.length) 개에서 r개를 골라 모든 조합 순서쌍 배열로 만들어 리턴
+const getCombination = (arr, r, selectedIdx = 0, arrIdx = 0, selected = []) => {
   let result = [];
   // 다 뽑았을 때
   if (r === 0) {
     result.push([...selected]);
-  } else if (targetIdx < arr.length) {
-    selected[idx] = arr[targetIdx];
-    // arr의 해당 원소 (arr[targetIdx])를 뽑는 경우 => idx를 1 증가시켜 selected에 넣은 정보를 유지하고 다음 인덱스의 숫자를 결정.
-    result = [...result, ...getCombination(arr, r - 1, idx + 1, targetIdx + 1, selected)];
-    // arr의 해당 원소 (arr[targetIdx])를 안 뽑는 경우 => idx를 그대로 유지시켜 다른 값으로 교체되게 만듬.
-    result = [...result, ...getCombination(arr, r, idx, targetIdx + 1, selected)];
+  } else if (arrIdx < arr.length) {
+    selected[selectedIdx] = arr[arrIdx];
+    // arr의 해당 원소 (arr[arrIdx])를 뽑는 경우 => selectedIdx 1 증가시켜 selected에 넣은 정보를 유지하고 다음 인덱스의 숫자를 결정.
+    result = [...result, ...getCombination(arr, r - 1, selectedIdx + 1, arrIdx + 1, selected)];
+    // arr의 해당 원소 (arr[arrIdx])를 안 뽑는 경우 => selectedIdx 그대로 유지시켜 다른 값으로 교체되게 만듬.
+    result = [...result, ...getCombination(arr, r, selectedIdx, arrIdx + 1, selected)];
   }
 
   return result;
