@@ -1,7 +1,7 @@
 const getPermutations = (arr, idx = 0) => {
   let result = [];
   if (idx >= arr.length - 1) {
-    return [...result, [...arr]];
+    return [[...arr]];
   }
 
   for (let i = idx; i < arr.length; ++i) {
