@@ -1,15 +1,20 @@
 const fs = require('fs');
 const [first, ...inputs] = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
 // const [first, ...inputs] = `
-// 4 4
-// 1 100
-// 2 200
-// 13 300
-// 10 500
+// 3 10
+// 1 1
+// 2 2
+// 3 3
+// 1
+// 7
+// 8
+// 9
 // 10
-// 10
-// 10
+// 11
+// 12
+// 13
 // 14
+// 15
 // `.trim().split('\n');
 
 const [N, K] = first.split(' ').map(e => +e);
@@ -36,10 +41,15 @@ class Heap {
   }
 
   pop() {
+    if (this.arr.length === 1) {
+      this.arr = [];
+      return;
+    }
+
     this.arr[0] = this.arr.pop();
 
     let idx = 0;
-    
+
     while (true) {
       const left = 2 * idx + 1;
       const right = 2 * idx + 2;

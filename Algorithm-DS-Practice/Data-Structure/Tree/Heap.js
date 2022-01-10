@@ -20,6 +20,11 @@ class Heap {
   }
 
   pop() {
+    if (this.arr.length === 1) {
+      this.arr = [];
+      return;
+    }
+
     this.arr[0] = this.arr.pop();
 
     let idx = 0;
