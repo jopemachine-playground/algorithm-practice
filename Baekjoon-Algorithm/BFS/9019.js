@@ -1,4 +1,5 @@
-// Ref: 백준 알고리즘 강좌 중급
+// Ref: 백준 알고리즘 강좌 중급,
+// from, how 배열을 만들어 출력함으로써 timeout 제거.
 const fs        = require('fs');
 const inputs    = fs.readFileSync("/dev/stdin")
                   .toString()
@@ -41,9 +42,13 @@ const execute_R = (src) => {
   return d4 + d123;
 };
 
+// 이 문제에서 배울 것 :: 매번 string 더하기를 하고 있으면 느리니까
+// 이런 식으로 from, how 배열에 다 박아놨다가 출력하는 함수를 만들어서 처리하는 방법.
 const print = (src, dst) => {
   if (src === dst) return;
+  // dst가 어디에서 왔는지 거슬러 올라간다.
   print(src, from[dst]);
+  // 맨 아래 쪽 how 부터 출력하기 시작한다.
   process.stdout.write(how[dst]);
 };
 
