@@ -14,6 +14,7 @@ let i = 0;
 let j = 0;
 let result = [];
 
+// worst case:: N + M - 1 번 실행.
 while (i < N && j < M) {
   if (arr1[i] >= arr2[j]) {
     result.push(arr2[j]);
