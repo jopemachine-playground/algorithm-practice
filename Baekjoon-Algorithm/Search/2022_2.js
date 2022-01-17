@@ -22,8 +22,9 @@ let ans;
 let left = 0;
 let right = Math.max(x, y);
 
-// 오차를 1 / 2^10000으로 만든다.
-for (let i = 0; i < 10000; ++i) {
+// 문제에서 소수점 세 자리 까지 정확도를 요구하기 때문에 1e-3 보다는 작아야 한다.
+// 넉넉하게 1e-6 정도로 잡는 경우가 많은 것 같다.
+while (Math.abs(left - right) > 1e-3) {
   let mid = (left + right) / 2;
 
   if (getC(mid) > c) {
