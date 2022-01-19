@@ -62,7 +62,8 @@ const go = () => {
       if (nr >= 8 || nc >= 8 || nr < 0 || nc < 0) continue;
 
       if (
-        // 모든 벽을 실제로 map에 복사하면서 옮기는 게 아니라, nr, ntime으로 그 시간에 벽이 있는지 계산.
+        // 모든 벽을 실제로 map에 복사하면서 옮기는 게 아니라, nr, time으로 그 시간에 벽이 있는지 계산.
+        // time초가 지났다면 nr에 벽이 없다는 걸 알 수 있기 때문에, nr < time인 경우 체크 안 해도 된다.
         (nr - time < 0 || map[nr - time][nc] === '.') &&
         // 마지막 row가 아니라면 다음 time에서 내려오는 벽도 고려해야 함.
         (nr - time - 1 < 0 || map[nr - time - 1][nc] === '.') &&
