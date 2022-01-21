@@ -5,26 +5,22 @@ const [first, ...map]   = fs.readFileSync("/dev/stdin")
                             .split('\n')
 
 // const [first, ...map] = `
-// 4 4 3
-// 0111
-// 1111
-// 1111
+// 6 4 1
+// 0100
 // 1110
+// 1000
+// 0000
+// 0111
+// 0000
 // `.trim().split('\n');
 
 const [N, M, K] = first.split(' ').map(str => Number(str));
 
-const visited = [];
-
-for (let i = 0; i < N; ++i) {
-  visited[i] = [];
-  for (let j = 0; j < M; ++j) {
-    visited[i][j] = [];
-    for (let k = 0; k < K; ++k) {
-      visited[i][j][k] = false;
-    }
-  }
-}
+const visited = 
+  Array.from(Array(N), () =>
+  Array.from(Array(M), () =>
+  Array(K).fill(false))
+);
 
 // 가능한 이동 방향
 const deltas = [

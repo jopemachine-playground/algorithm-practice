@@ -2,12 +2,14 @@ const fs                    = require('fs');
 const [first, ...inputs]    = fs.readFileSync("/dev/stdin")
                             .toString()
                             .trim()
-                            .split('\n')
+                            .split('\n');
 // const [first, ...inputs] = `
-// 4 4 1
-// 0011
+// 6 4 1
+// 0100
+// 1110
+// 1000
+// 0000
 // 0111
-// 1111
 // 0000
 // `.trim().split('\n');
 
@@ -15,20 +17,12 @@ const [N, M, K] = first.split(' ').map(e => +e);
 
 const map = inputs.map(input => input.split('').map(e => +e));
 
-const cache = [];
-for (let i = 0; i < N; ++i) {
-  cache[i] = [];
-  for (let j = 0; j < M; ++j) {
-    cache[i][j] = [];
-    for (let k = 0; k < K + 1; ++k) {
-      cache[i][j][k] = [];
-      // 밤
-      cache[i][j][k][0] = false;
-      // 낮
-      cache[i][j][k][1] = false;
-    }
-  } 
-}
+const cache = 
+  Array.from(Array(N), () =>
+  Array.from(Array(M), () =>
+  Array.from(Array(K + 1), () =>
+  Array(2).fill(false)))
+);
 
 const deltas = [
   { r: 0, c: 0 },
@@ -55,8 +49,8 @@ const go = () => {
     for (const delta of deltas) {
       const nr = delta.r + r;
       const nc = delta.c + c;
-      // 범위를 벗어나는 움직임 방지
-      if (!(nr < N && nc < M && nr >= 0 && nc >= 0)) continue;
+      // 범위 초과
+      if (nr >= N || nr < 0 || nc >= M || nc < 0) continue;
 
       // 낮에 벽을 만났고, 벽을 더 부술 수 있는 경우
       if (isDay && map[nr][nc] === 1 && breakCount < K) {
@@ -77,7 +71,7 @@ const go = () => {
       }
       else {
         // 벽이 없으면 자유롭게 이동하거나 머무름.
-        if (map[nr][nc] === 0) {
+        if (map[nr][nc] === 0 || (r == nr && c == nc)) {
           // 이동해본 곳이 아니라면 이동
 
           if (!cache[nr][nc][breakCount][isDay]) {
