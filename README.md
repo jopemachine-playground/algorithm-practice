@@ -2,6 +2,10 @@
 
 - 백준 알고리즘 문제 풀이 및 연습용으로 구현한 자료구조 코드.
 
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/generate_badge?boj=jopemachine)](https://solved.ac/jopemachine)
+
+
 <h2>Environment</h2>
 
 >C lion 2019.1.4
