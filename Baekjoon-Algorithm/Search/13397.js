@@ -12,7 +12,9 @@ for (let i = 0; i < nums.length; ++i) {
   max = Math.max(max, nums[i]);
 }
 
-// 구간점수의 최댓값이 mid 이하인 M개의 구간을 만들 수 있는가? 
+// 구간점수의 최댓값이 mid 이하인 M개의 구간을 만들 수 있는가?
+// => 결정 문제를 구간점수의 최댓값이 mid인 M개의 구간을 만들 수 있는가? 로 만들면 틀림에 주의.
+// => 그렇게 하면 특정 값에 대해 true / false 두 개의 구간으로 나눠지질 않기 때문에, 이분법이 성립하질 않음.
 const possible = (mid) => {
   // 마지막 구간의 갯수 1을 더해준다.
   let intervalCnt = 1;
@@ -24,24 +26,18 @@ const possible = (mid) => {
     // 새 수가 구간보다 작은 값인 경우..
     if (nums[i] < min) {
       min = nums[i];
-      const diff = max - min;
-      // diff가 mid 보다 크면 다음 수를 이 구간에 포함시킬 수 없음. 즉, 새 구간을 만든다.
-      // 실제로 새 구간을 만들 필요는 없고 min, max 두 포인터를 nums[i]로 초기화 시켜주면 된다.
-      if (diff > mid) {
-        ++intervalCnt;
-        max = nums[i];
-      }
     }
     // 새 수가 구간보다 큰 값인 경우..
     else if (nums[i] > max) {
       max = nums[i];
-      const diff = max - min;
-      // diff가 mid 보다 크면 다음 수를 이 구간에 포함시킬 수 없음. 즉, 새 구간을 만든다.
-      // 실제로 새 구간을 만들 필요는 없고 min, max 두 포인터를 nums[i]로 초기화 시켜주면 된다.
-      if (diff > mid) {
-        ++intervalCnt;
-        min = nums[i];
-      }
+    }
+
+    // diff가 mid 보다 크면 다음 수를 이 구간에 포함시킬 수 없음. 즉, 새 구간을 만든다.
+    // 실제로 새 구간을 만들 필요는 없고 min, max 두 포인터를 nums[i]로 초기화 시켜주면 된다.
+    if (max - min > mid) {
+      ++intervalCnt;
+      min = nums[i];
+      max = nums[i];
     }
   }
 
