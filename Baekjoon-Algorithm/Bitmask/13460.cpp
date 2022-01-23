@@ -108,7 +108,7 @@ bool valid(vector<int>& dir) {
   return true;
 }
 
-int main() {
+int solve() {
   int n, m;
   cin >> n >> m;
   vector<string> map(n);
