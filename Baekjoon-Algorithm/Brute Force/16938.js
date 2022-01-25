@@ -25,6 +25,8 @@ const go = (picked = [], idx = 0) => {
     return;
   }
 
+  // To do:: 여기서 가지치기 해서 백트랙킹 할 수 있을 거 같은데?
+
   // 고르고 진행
   picked.push(nums[idx]);
   go (picked, idx + 1);
