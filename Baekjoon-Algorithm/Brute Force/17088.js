@@ -37,13 +37,13 @@ for (let i = -1; i <= 1; ++i) {
   }
 }
 
-// nums를 해당 공차로 만들 수 있는지 체크하고, 가능한 경우 최소 연산 횟수를 리턴
 let seq;
 
+// nums를 해당 공차로 만들 수 있는지 체크하고, 가능한 경우 최소 연산 횟수를 리턴
 const getMinOprCnt = (diff) => {
   let cnt = 0;
 
-  // 0, 1은 이미 체크함, i + 1 번째에만 연산을 적용.
+  // i + 1 번째 값을 순차적으로 하나하나 결정해 나감.
   for (let i = 0; i + 1 < N; ++i) {
     const actualDiff = seq[i] - seq[i + 1];
 
