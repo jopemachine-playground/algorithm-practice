@@ -22,6 +22,9 @@ const getFriendsCnt = (idx) => {
 
 let min = Infinity;
 
+// N^3 처럼 보이지만 그렇지 않음에 주의
+// i, j가 친구일 때만 아래 반복문이 실행되고, 아래 반복문은 최대 M번까지만 호출되고, 각각의 경우 N번만큼 실행되므로
+// O(N^2 + MN)이 된다.
 for (let i = 1; i <= N; ++i) {
   for (let j = i + 1; j <= N; ++j) {
     if (!isFriends[i][j]) continue;
