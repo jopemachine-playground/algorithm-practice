@@ -18,7 +18,7 @@ int main () {
     vec.push_back({ p, d });
   }
 
-  // 걸리는 시간에 오름차순으로 정렬
+  // 걸리는 시간에 내림차순으로 정렬
   sort(vec.begin(), vec.end(), [](auto u, auto v) {
     return u.second > v.second;
   });
