@@ -1,4 +1,3 @@
-
 const fs                = require('fs');
 // const [first, ...inputs]    = `
 // 8 6
