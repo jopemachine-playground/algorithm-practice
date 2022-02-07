@@ -61,7 +61,7 @@ int solve() {
   for (int i = 0; i < mirrorCnts; ++i) {
     for (int k = 0; k < 4; ++k) {
       int r = mirrors[i].first + dr[k];
-      int c = mirrors[i].second + dr[k];
+      int c = mirrors[i].second + dc[k];
 
       while (0 <= r && r < N && 0 <= c && c < N) {
         if (map[r][c] == '*') break;
