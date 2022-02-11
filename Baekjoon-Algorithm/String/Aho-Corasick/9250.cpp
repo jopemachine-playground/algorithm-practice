@@ -64,11 +64,10 @@ int solve() {
 
   for (int i = 0; i < N; ++i) {
     cin >> strs[i];
-    addNode(trieRoot, strs[i], 0);
+    add(trieRoot, strs[i], 0);
   }
 
   // BFS로 트라이를 돌면서 pi 값을 넣어주자.
-  // 
   queue<int> que;
   trie[trieRoot].pi = trieRoot;
   que.push(trieRoot);
@@ -95,6 +94,7 @@ int solve() {
         trie[next].pi = x;
       }
       int pi = trie[next].pi;
+      // 실제로 찾은 문자열도 알기 위해선 다른 과정이 필요
       trie[next].valid |= trie[pi].valid;
       que.push(next);
     }
