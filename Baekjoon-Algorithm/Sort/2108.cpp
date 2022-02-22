@@ -43,7 +43,9 @@ int solve() {
 
   sort(nums.begin(), nums.end());
 
-  cout << round((double) sum / N) << "\n";
+  // -0이 나올 경우 0으로 바꿔 처리.
+  int avg = round((double) sum / N);
+  cout << (avg == -0 ? abs(avg) : avg) << "\n";
 
   cout << nums[N / 2] << "\n";
 
