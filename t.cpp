@@ -1,8 +1,9 @@
-#include "Baekjoon-Algorithm/Topological Sort/1516.h"
-//#include "Baekjoon-Algorithm/BFS/2206.h"
+#include "Baekjoon-Algorithm/Inclusion Exclusion Principle/17436.cpp"
 // #include "Algorithm-DS-Practice/Data:-Structure/List/ArrayList.h"
-// #include "Baekjoon-Algorithm/DFS/11724.h"
 
 int main() {
-    solve();
+#ifndef ONLINE_JUDGE
+  freopen("input", "r", stdin);
+#endif
+  solve();
 }

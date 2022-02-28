@@ -12,5 +12,5 @@
 ### C++
 
 ```
-g++ -std=gnu++17 t.cpp && ./a.out < input
+g++ -std=gnu++17 t.cpp && ./a.out
 ```
