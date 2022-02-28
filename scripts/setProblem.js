@@ -11,6 +11,11 @@ const problemNumber = process.argv[2];
 (async () => {
   const paths = await globby(`**/${problemNumber}*.*`);
 
+  if (paths.length === 0) {
+    console.error(`Failed to find '${problemNumber}'`);
+    process.exit(1);
+  }
+
   if (paths.length > 1) {
     console.error('Failed to set problem.');
   } else {

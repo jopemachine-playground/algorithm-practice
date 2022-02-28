@@ -1,7 +1,8 @@
 import {execaCommand} from 'execa';
 import {globby} from 'globby';
-import fs from 'node:fs';
+import chalk from 'chalk';
 import logSymbols from 'log-symbols';
+import fs from 'node:fs';
 const fsp = fs.promises;
 
 (async () => {
@@ -13,12 +14,12 @@ const fsp = fs.promises;
     const content = await fsp.readFile(testFilePath, { encoding: 'utf-8' });
     await fsp.writeFile('input', content, { encoding: 'utf-8' });
 
-    console.log(`-------------- Test case ${idx++} --------------`);
+    console.log(chalk.white(`-------------- Test case ${idx++} --------------`));
     const {stdout, stderr} = await execaCommand('./a.out');
     console.log(stdout);
 
     if (stderr) {
-      console.log(`${logSymbols.info} DEBUG: `, stderr);
+      console.log(chalk.gray(`${logSymbols.info} [DEBUG]: `, stderr));
     }
   }
 }) ();

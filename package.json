@@ -9,6 +9,7 @@
   },
   "type": "module",
   "dependencies": {
+    "chalk": "^5.0.0",
     "clipboardy": "^3.0.0",
     "execa": "^6.1.0",
     "globby": "^13.1.1",
