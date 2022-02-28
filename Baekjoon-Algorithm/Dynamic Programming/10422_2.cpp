@@ -62,6 +62,10 @@ int solve() {
   ios::sync_with_stdio(false);
   int T;
   cin >> T;
+  // 보통 T에 따라 매 테스트 케이스에서 dp를 초기화 해줘야 하지만,
+  // 이런 문제의 경우 이전 테스트 케이스에서 사용했던 값을 그대로 다음 테스트 케이스에 사용할 수 있다.
+  // 즉, dp를 그대로 사용할 수 있다.
+  // 테스트 케이스가 100까지이기 때문에, O(N)인 memset을 while문 내부로 넣으면 시간초과 나므로 주의.
   memset(dp, -1, sizeof(dp));
   while(T--) {
     int L;

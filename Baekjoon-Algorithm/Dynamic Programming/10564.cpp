@@ -61,6 +61,8 @@ int solve() {
 
     memset(dp, 0, sizeof(dp));
 
+    // go(0,0)을 호출하는 것은 bottom-up 방식 (반복문 dp)에서 dp[0][0] = true 이라고
+    // 가정하고 문제를 푸는 것과 같다
     go(0, 0);
 
     int res = -1;
