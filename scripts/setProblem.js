@@ -12,7 +12,7 @@ const problemNumber = process.argv[2];
   const paths = await globby(`**/${problemNumber}*.*`);
 
   if (paths.length === 0) {
-    console.error(`Failed to find '${problemNumber}'`);
+    console.error(`${logSymbols.error} Failed to find '${problemNumber}'`);
     process.exit(1);
   }
 
