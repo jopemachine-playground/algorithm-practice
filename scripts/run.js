@@ -9,6 +9,11 @@ const fsp = fs.promises;
   const paths = await globby('tests/*');
   await execaCommand('g++ -std=gnu++17 t.cpp');
 
+  if (!paths.length) {
+    console.error(`${logSymbols.error} There are no test cases`);
+    process.exit(1);
+  }
+
   let idx = 1;
   for (const testFilePath of paths) {
     const content = await fsp.readFile(testFilePath, { encoding: 'utf-8' });
