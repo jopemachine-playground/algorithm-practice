@@ -8,7 +8,8 @@
     "r": "node scripts/run",
     "add": "node scripts/addTest",
     "c": "node scripts/clean",
-    "set": "node scripts/setProblem"
+    "set": "node scripts/setProblem",
+    "commit": "node scripts/commit"
   },
   "type": "module",
   "dependencies": {
