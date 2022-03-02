@@ -2,22 +2,25 @@
   "version": "0.0.0",
   "description": "Personal Algorithm Problem Solving",
   "main": "index.js",
-  "bin": {
-  },
+  "bin": {},
   "scripts": {
-    "r": "node scripts/run",
+    "test": "node scripts/test",
     "add": "node scripts/addTest",
-    "c": "node scripts/clean",
+    "add-test": "node scripts/addTest",
+    "add-answer": "node scripts/addAnswer",
+    "clear": "node scripts/clean",
     "set": "node scripts/setProblem",
     "commit": "node scripts/commit"
   },
   "type": "module",
   "dependencies": {
+    "boxen": "^6.2.1",
     "chalk": "^5.0.0",
     "clipboardy": "^3.0.0",
     "execa": "^6.1.0",
     "globby": "^13.1.1",
     "log-symbols": "^5.1.0",
+    "path-exists": "^5.0.0",
     "unused-filename": "^4.0.0"
   }
 }

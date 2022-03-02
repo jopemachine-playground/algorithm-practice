@@ -1,7 +1,7 @@
-import { globby } from 'globby';
-import fs from 'node:fs';
-import process from 'node:process';
+import {globby} from 'globby';
 import logSymbols from 'log-symbols';
+import process from 'node:process';
+import fs from 'node:fs';
 const fsp = fs.promises;
 
 import './clean.js';

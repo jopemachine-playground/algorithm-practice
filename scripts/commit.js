@@ -1,6 +1,6 @@
 import {execa, execaCommand} from 'execa';
 import logSymbols from 'log-symbols';
-import { globby } from 'globby';
+import {globby} from 'globby';
 import path from 'node:path';
 
 const problemNumber = process.argv[2];
