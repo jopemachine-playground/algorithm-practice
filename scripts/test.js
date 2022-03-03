@@ -8,6 +8,8 @@ import path from 'node:path';
 import fs from 'node:fs';
 const fsp = fs.promises;
 
+const testNumber = process.argv[2];
+
 (async () => {
   const paths = await globby('tests/*');
   try {
@@ -26,6 +28,11 @@ const fsp = fs.promises;
   let idx = 1;
   const result = [];
   for (const testFilePath of paths) {
+    if (testNumber && testNumber != idx) {
+      ++idx;
+      continue;
+    }
+
     const filename = path.parse(testFilePath).base;
     const content = await fsp.readFile(testFilePath, { encoding: 'utf-8' });
     await fsp.writeFile('input', content, { encoding: 'utf-8' });
@@ -66,7 +73,10 @@ const fsp = fs.promises;
   }
 
   if (result.length) {
-    console.log(boxen(result.join('\n'), { padding: 1 }));
+    console.log(chalk.gray('\n------------------------------------'));
+    console.log(chalk.gray('* Test Result\n'));
+    console.log(result.map(e => ' ' + e).join('\n'));
+    console.log();
   }
 }) ();
 
