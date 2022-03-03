@@ -10,22 +10,34 @@ const fsp = fs.promises;
 
 (async () => {
   const paths = await globby('tests/*');
-  await execaCommand('g++ -std=gnu++17 t.cpp');
+  try {
+    await execaCommand('g++ -std=gnu++17 t.cpp');
+  } catch (e) {
+    console.log(chalk.red(`${logSymbols.error} Compile Failed!`));
+    console.log(e.stderr);
+    process.exit(1);
+  }
 
   if (!paths.length) {
     console.error(`${logSymbols.error} There are no test cases`);
     process.exit(1);
   }
 
-  let result = [];
   let idx = 1;
+  const result = [];
   for (const testFilePath of paths) {
     const filename = path.parse(testFilePath).base;
     const content = await fsp.readFile(testFilePath, { encoding: 'utf-8' });
     await fsp.writeFile('input', content, { encoding: 'utf-8' });
 
     console.log(chalk.white(`-------------- Test case ${idx} --------------`));
-    const {stdout, stderr} = await execaCommand('./a.out');
+    let stdout, stderr;
+
+    try {
+      const res = await execaCommand('./a.out');
+      stdout = res.stdout;
+      stderr = res.stderr;
+    } catch {}
 
     if (stderr) {
       console.log(chalk.gray(`${logSymbols.info} [DEBUG]: `, stderr));
@@ -42,6 +54,10 @@ const fsp = fs.promises;
     }
 
     console.log(stdout);
+
+    if (!stdout) {
+      console.log(chalk.gray('stdout is empty!'));
+    }
     ++idx;
   }
 
