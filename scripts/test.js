@@ -35,9 +35,13 @@ const fsp = fs.promises;
 
     try {
       const res = await execaCommand('./a.out');
-      stdout = res.stdout;
-      stderr = res.stderr;
-    } catch {}
+      stdout = res.stdout ?? "";
+      stderr = res.stderr ?? "";
+    } catch (e) {
+      console.log(chalk.red(`${logSymbols.error} Runtime error!`));
+      console.log(e.shortMessage);
+      process.exit(1);
+    }
 
     if (stderr) {
       console.log(chalk.gray(`${logSymbols.info} [DEBUG]: `, stderr));
