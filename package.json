@@ -19,6 +19,7 @@
     "clipboardy": "^3.0.0",
     "execa": "^6.1.0",
     "globby": "^13.1.1",
+    "inquirer": "^8.2.0",
     "log-symbols": "^5.1.0",
     "path-exists": "^5.0.0",
     "unused-filename": "^4.0.0"
