@@ -17,7 +17,7 @@ const problemNumber = process.argv[2];
     console.error('Failed to set problem.');
   } else {
     const { dir } = path.parse(paths[0]);
-    await execaCommand(`git add ${paths[0]}`);
+    await execa('git', ['add', paths[0]]);
     // console.log(`git commit -m "\[${dir}\] Solve ${problemNumber}"`);
     await execa('git', ['commit', '-m', `[${dir}] Solve ${problemNumber}`]);
     await execaCommand(`git push origin master`);
