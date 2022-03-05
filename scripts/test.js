@@ -57,8 +57,8 @@ const testNumber = process.argv[2];
 
     const answerPath = path.resolve(`answers/${filename}`);
     if (await pathExists(answerPath)) {
-      const expected = await fsp.readFile(answerPath, { encoding: 'utf-8' });
-      if (stdout === expected) {
+      const expected = (await fsp.readFile(answerPath, { encoding: 'utf-8' })).trim();
+      if (stdout.trim() === expected) {
         result.push(chalk.greenBright(`${logSymbols.success} Test ${idx} Success!`));
       } else {
         result.push(chalk.red(`${logSymbols.error} Test ${idx} Failed!`));
