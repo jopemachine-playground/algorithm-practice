@@ -3,7 +3,6 @@ import {globby} from 'globby';
 import chalk from 'chalk';
 import logSymbols from 'log-symbols';
 import {pathExists} from 'path-exists';
-import boxen from 'boxen';
 import path from 'node:path';
 import fs from 'node:fs';
 const fsp = fs.promises;

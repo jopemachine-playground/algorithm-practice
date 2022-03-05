@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import {unusedFilename} from 'unused-filename';
 import chalk from 'chalk';
+import open from 'open';
 const fsp = fs.promises;
 
 const addTest = async (copiedTexts) => {
@@ -24,8 +25,13 @@ const clearTests = async () => {
   await fsp.mkdir('answers');
 };
 
+const openProblem = async (problemNumber) => {
+  open(`https://www.acmicpc.net/problem/${problemNumber}`, { wait: false });
+}
+
 export {
   addTest,
   addAnswer,
   clearTests,
+  openProblem,
 }
