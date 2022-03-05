@@ -47,7 +47,8 @@ const testNumber = process.argv[2];
     } catch (e) {
       console.log(chalk.red(`${logSymbols.error} Runtime error!`));
       console.log(e.shortMessage);
-      process.exit(1);
+      ++idx;
+      continue;
     }
 
     if (stderr) {

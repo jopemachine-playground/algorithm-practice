@@ -34,7 +34,6 @@ const problemNumber = process.argv[2];
 
   const { dir } = path.parse(paths[0]);
   await execa('git', ['add', paths[0]]);
-  // console.log(`git commit -m "\[${dir}\] Solve ${problemNumber}"`);
   await execa('git', ['commit', '-m', `[${dir}] Solve ${problemNumber}`]);
   await execaCommand(`git push origin master`);
   console.log(`${logSymbols.success} Commit and push problem successfully: '${paths[0]}'`);
