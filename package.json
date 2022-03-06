@@ -4,21 +4,25 @@
   "main": "index.js",
   "bin": {},
   "scripts": {
-    "test": "node scripts/test",
-    "add": "node scripts/addTest",
-    "add-test": "node scripts/addTest",
-    "add-answer": "node scripts/addAnswer",
-    "clear": "node scripts/clean",
-    "set": "node scripts/setProblem",
-    "commit": "node scripts/commit",
-    "open": "node scripts/open",
-    "fetch-test": "node scripts/fetchTests"
+    "test": "node scripts/cli test",
+    "add": "node scripts/cli addTest",
+    "add-test": "node scripts/cli addTest",
+    "add-answer": "node scripts/cli addAnswer",
+    "clear": "node scripts/cli clear",
+    "set": "node scripts/cli set",
+    "reset": "node scripts/cli resetConfig",
+    "commit": "node scripts/cli commit",
+    "open": "node scripts/cli open",
+    "create": "node scripts/cli createProblem",
+    "fetch-test": "node scripts/cli fetchTests",
+    "lint": "xo --fix ./scripts"
   },
   "type": "module",
   "dependencies": {
     "chalk": "^5.0.0",
     "cheerio": "^1.0.0-rc.10",
     "clipboardy": "^3.0.0",
+    "conf": "^10.1.1",
     "execa": "^6.1.0",
     "globby": "^13.1.1",
     "got": "^12.0.1",
@@ -27,5 +31,8 @@
     "open": "^8.4.0",
     "path-exists": "^5.0.0",
     "unused-filename": "^4.0.0"
+  },
+  "devDependencies": {
+    "xo": "^0.48.0"
   }
 }
