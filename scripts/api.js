@@ -3,6 +3,7 @@ import process from 'node:process';
 import path from 'node:path';
 import {unusedFilename} from 'unused-filename';
 import chalk from 'chalk';
+import {execa, execaCommand} from 'execa';
 import open from 'open';
 import got from 'got';
 import {load} from 'cheerio';
@@ -39,15 +40,35 @@ const openProblem = async problemNumber => {
 	open(`https://www.acmicpc.net/problem/${problemNumber}`, {wait: false});
 };
 
-const fetchTests = async problemNumber => {
+let problemInfo;
+const fetchProblemInfo = async problemNumber => {
 	const res = await got(`https://www.acmicpc.net/problem/${problemNumber}`);
+	problemInfo = load(res.body);
+	return problemInfo;
+};
+
+const fetchProblemAttributes = async problemNumber => {
+	if (!problemInfo) {
+		await fetchProblemInfo(problemNumber);
+	}
+
+	return {
+		title: problemInfo('#problem_title').text(),
+		// 알고리즘 분류 작동 안 됨.
+		// kind: problemInfo('.spoiler-link'),
+	};
+};
+
+const fetchTests = async problemNumber => {
+	if (!problemInfo) {
+		await fetchProblemInfo(problemNumber);
+	}
+
 	await clearTests();
 
-	const $ = load(res.body);
-
 	for (let i = 1; ; ++i) {
-		const sampleInput = $(`#sample-input-${i}`);
-		const sampleOutput = $(`#sample-output-${i}`);
+		const sampleInput = problemInfo(`#sample-input-${i}`);
+		const sampleOutput = problemInfo(`#sample-output-${i}`);
 		const sampleInputTxt = sampleInput.text();
 		const sampleOutputTxt = sampleOutput.text();
 
@@ -90,7 +111,7 @@ const commitProblem = async problemNumber => {
 	console.log(`${logSymbols.success} Commit and push problem successfully: '${paths[0]}'`);
 };
 
-const setProblem = async () => {
+const setProblem = async problemNumber => {
 	let paths = await globby(`**/${problemNumber}*.*`);
 
 	if (paths.length === 0) {
@@ -139,10 +160,11 @@ const createProblem = async problemNumber => {
 			paths = [selection.file];
 		});
 
+	const {title} = await fetchProblemAttributes(problemNumber);
 	const pathToSave = path.resolve(paths[0], [problemNumber, config.get('extension')].join('.'));
 	const template = await fsp.readFile(path.resolve(config.get('template')), {encoding: 'utf-8'});
-
-	const commentTemplate = await fsp.readFile(path.resolve(config.get('template')), {encoding: 'utf-8'});
+	const commentTemplate = (await fsp.readFile(path.resolve(config.get('commentTemplate')), {encoding: 'utf-8'}))
+		.replace('{problemTitle}', title);
 
 	await fsp.writeFile(pathToSave, `${commentTemplate}\n${template}`, {encoding: 'utf-8'});
 
