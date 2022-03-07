@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import process from 'node:process';
 import path from 'node:path';
-import {unusedFilename} from 'unused-filename';
+import {unusedFilename, separatorIncrementer} from 'unused-filename';
 import chalk from 'chalk';
 import {execa, execaCommand} from 'execa';
 import open from 'open';
@@ -125,7 +125,7 @@ const setProblem = async problemNumber => {
 				{
 					type: 'list',
 					name: 'file',
-					message: chalk.dim('Choose file to commit'),
+					message: chalk.dim('Choose file to set'),
 					choices: paths.map(path => ({name: path, value: path})),
 				},
 			])
@@ -145,7 +145,9 @@ const setProblem = async problemNumber => {
 };
 
 const createProblem = async problemNumber => {
-	let paths = await globby('Baekjoon-Algorithm/*', {onlyDirectories: true});
+	let paths = await globby('Baekjoon-Algorithm/**/*', {
+		onlyDirectories: true,
+	});
 
 	await inquirer
 		.prompt([
@@ -153,7 +155,11 @@ const createProblem = async problemNumber => {
 				type: 'list',
 				name: 'file',
 				message: chalk.dim('Select an folder to save the file'),
-				choices: paths.map(path => ({name: path, value: path})),
+				choices: paths.map(path => ({
+					name: path.split('Baekjoon-Algorithm/')[1],
+					value: path,
+				})),
+				loop: false,
 			},
 		])
 		.then(selection => {
@@ -161,7 +167,10 @@ const createProblem = async problemNumber => {
 		});
 
 	const {title} = await fetchProblemAttributes(problemNumber);
-	const pathToSave = path.resolve(paths[0], [problemNumber, config.get('extension')].join('.'));
+	const pathToSave = await unusedFilename(
+		path.resolve(paths[0], [problemNumber, config.get('extension')].join('.'))
+		, {incrementer: separatorIncrementer('_')});
+
 	const template = await fsp.readFile(path.resolve(config.get('template')), {encoding: 'utf-8'});
 	const commentTemplate = (await fsp.readFile(path.resolve(config.get('commentTemplate')), {encoding: 'utf-8'}))
 		.replace('{problemTitle}', title);

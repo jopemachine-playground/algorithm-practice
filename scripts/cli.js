@@ -39,7 +39,7 @@ switch (command) {
 	case 'commit':
 		commitProblem(problemNumber);
 		break;
-	case 'fetchTest':
+	case 'fetchTests':
 		fetchTests(problemNumber);
 		break;
 	case 'clear':
