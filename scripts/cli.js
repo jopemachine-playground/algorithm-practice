@@ -31,7 +31,9 @@ switch (command) {
 		reset();
 		break;
 	case 'set':
-		setProblem(problemNumber);
+		setProblem(problemNumber).then(() => {
+      fetchTests(problemNumber);
+    });
 		break;
 	case 'open':
 		openProblem(problemNumber);

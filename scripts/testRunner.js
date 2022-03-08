@@ -35,7 +35,7 @@ const run = async testNumber => {
 		const content = await fsp.readFile(testFilePath, {encoding: 'utf-8'});
 		await fsp.writeFile('input', content, {encoding: 'utf-8'});
 
-		console.log(chalk.white(`-------------- Test case ${idx} --------------`));
+		console.log(chalk.gray(`-------------- Test case ${idx} --------------`));
 		let stdout; let stderr;
 
 		try {
@@ -73,7 +73,7 @@ const run = async testNumber => {
 	}
 
 	if (result.length > 0) {
-		console.log(chalk.gray('\n------------------------------------'));
+		console.log(chalk.gray('\n-----------------------------------------'));
 		console.log(chalk.gray('* Test Result\n'));
 		console.log(result.map(e => ' ' + e).join('\n'));
 		console.log();
