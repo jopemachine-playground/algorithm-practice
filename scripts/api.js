@@ -10,6 +10,7 @@ import {load} from 'cheerio';
 import {globby} from 'globby';
 import logSymbols from 'log-symbols';
 import inquirer from 'inquirer';
+import inquirerAutocompletePrompt from 'inquirer-autocomplete-prompt';
 
 import {config} from './conf.js';
 
@@ -144,27 +145,27 @@ const setProblem = async problemNumber => {
 	].join('\n'), {encoding: 'utf-8'});
 };
 
+const searchProblemTags = (paths, input) => {
+  return paths.filter(path => path.includes(input)).map(path => ({
+    name: path.split('Baekjoon-Algorithm/')[1],
+    value: path,
+  }));
+};
+
 const createProblem = async problemNumber => {
-	let paths = await globby('Baekjoon-Algorithm/**/*', {
-		onlyDirectories: true,
+  let paths = await globby('Baekjoon-Algorithm/**/*', {
+    onlyDirectories: true,
 	});
 
-	await inquirer
-		.prompt([
-			{
-				type: 'list',
-				name: 'file',
-				message: chalk.dim('Select an folder to save the file'),
-				choices: paths.map(path => ({
-					name: path.split('Baekjoon-Algorithm/')[1],
-					value: path,
-				})),
-				loop: false,
-			},
-		])
-		.then(selection => {
-			paths = [selection.file];
-		});
+  inquirer.registerPrompt('autocomplete', inquirerAutocompletePrompt);
+
+  paths = await inquirer.prompt([{
+		name: 'folder',
+		message: 'Select an folder to save the file',
+		type: 'autocomplete',
+		pageSize: 10,
+		source: async (answers, input) => searchProblemTags(paths, input),
+	}]);
 
 	const {title} = await fetchProblemAttributes(problemNumber);
 	const pathToSave = await unusedFilename(
