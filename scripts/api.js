@@ -146,7 +146,7 @@ const setProblem = async problemNumber => {
 };
 
 const searchProblemTags = (paths, input) => {
-  return paths.filter(path => path.includes(input)).map(path => ({
+  return paths.filter(path => !input || path.includes(input)).map(path => ({
     name: path.split('Baekjoon-Algorithm/')[1],
     value: path,
   }));
@@ -159,13 +159,13 @@ const createProblem = async problemNumber => {
 
   inquirer.registerPrompt('autocomplete', inquirerAutocompletePrompt);
 
-  paths = await inquirer.prompt([{
+  paths = [(await inquirer.prompt([{
 		name: 'folder',
 		message: 'Select an folder to save the file',
 		type: 'autocomplete',
 		pageSize: 10,
 		source: async (answers, input) => searchProblemTags(paths, input),
-	}]);
+	}])).folder];
 
 	const {title} = await fetchProblemAttributes(problemNumber);
 	const pathToSave = await unusedFilename(
