@@ -1,8 +1,7 @@
 /*
 ==============================+===============================================================
 @ Title : 최소비용 구하기 2
-@ Desc : 역추적 알고리즘은 값이 변할 때 왜 바뀌었는지를 기록할 것.
-그렇게 하면 재귀나 스택으로 실제 값을 재구성할 수 있음.
+@ Desc : 스택, 배열을 이용한 풀이
 @ Ref : 백준 알고리즘 중급
 ==============================+===============================================================
 */
@@ -44,73 +43,69 @@ struct Edge {
   Edge(int to, int cost): to(to), cost(cost) {};
 };
 
-const int INF = 1e9;
-
-vector<Edge> graph[1001];
 int dist[1001];
-int froms[1001];
 bool visited[1001];
-
-void reconstruct (vector<int>& paths, int start) {
-  if (dist[start] != 0) {
-    reconstruct(paths, froms[start]);
-  }
-  paths.push_back(start);
-}
+int froms[1001];
+vector<Edge> graph[1001];
+const int INF = 1e9;
 
 int solve() {
   _FASTIOS;
   int V, E;
   cin >> V >> E;
-
   for (int i = 0; i < E; ++i) {
     int from, to, cost;
     cin >> from >> to >> cost;
     graph[from].push_back(Edge(to, cost));
   }
 
-  for (int i = 1; i <= V; ++i) {
-    dist[i] = INF;
-    froms[i] = INF;
-  }
-
   int start, end;
   cin >> start >> end;
+  for (int i = 1; i <= V; ++i) {
+    dist[i] = INF;
+  }
 
   dist[start] = 0;
+  froms[start] = -1;
 
-  priority_queue<pii> pQue;
-
-  pQue.push({0, start});
-
-  int cost, dest;
-
-  while (!pQue.empty()) {
-    tie(cost, dest) = pQue.top();
-    pQue.pop();
-
-    if (visited[dest]) continue;
+  for (int k = 0; k < V - 1; ++k) {
+    int cost = INF + 1;
+    int dest = -1;
+    for (int i = 1; i <= V; ++i) {
+      if (!visited[i] && cost > dist[i]) {
+        cost = dist[i];
+        dest = i;
+      }
+    }
+    if (dest == -1) continue;
     visited[dest] = true;
 
     vector<Edge>& linkedList = graph[dest];
-
-    for (Edge edge : linkedList) {
-      if (dist[edge.to] > dist[dest] + edge.cost) {
-        dist[edge.to] = dist[dest] + edge.cost;
-        froms[edge.to] = dest;
-        pQue.push({ -dist[edge.to], edge.to });
+    for (int i = 0; i < linkedList.size(); ++i) {
+      int to = linkedList[i].to;
+      if (dist[to] > dist[dest] + linkedList[i].cost) {
+        dist[to] = dist[dest] + linkedList[i].cost;
+        froms[to] = dest;
       }
     }
   }
 
-  cout << dist[end] << "\n";
+  cout << dist[end] << '\n';
 
-  vector<int> paths;
-  reconstruct(paths, end);
-  cout << paths.size() << '\n';
-  for (int i = 0; i < paths.size(); ++i) {
-    cout << paths[i] << ' ';
+  stack<int> stk;
+  int x = end;
+  while (x != -1) {
+    stk.push(x);
+    x = froms[x];
   }
+
+  cout << stk.size() << '\n';
+
+  while (!stk.empty()) {
+    cout << stk.top() << ' ';
+    stk.pop();
+  }
+  cout << '\n';
 
   return 0;
 }
