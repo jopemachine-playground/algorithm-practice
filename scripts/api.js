@@ -168,9 +168,19 @@ const createProblem = async problemNumber => {
 	}])).folder];
 
 	const {title} = await fetchProblemAttributes(problemNumber);
+
+  const prefixIncrementer = (filename, extension) => {
+    const match = filename.match(/^(?<index>\d+)_(?<originalFilename>.*)$/);
+    let {originalFilename, index} = match ? match.groups : {originalFilename: filename, index: 1};
+    originalFilename = originalFilename.trim();
+    return [`${originalFilename}${extension}`, `${originalFilename}_${++index}${extension}`];
+  };
+
 	const pathToSave = await unusedFilename(
 		path.resolve(paths[0], [problemNumber, config.get('extension')].join('.'))
-		, {incrementer: separatorIncrementer('_')});
+		, {
+      incrementer: prefixIncrementer,
+    });
 
 	const template = await fsp.readFile(path.resolve(config.get('template')), {encoding: 'utf-8'});
 	const commentTemplate = (await fsp.readFile(path.resolve(config.get('commentTemplate')), {encoding: 'utf-8'}))
