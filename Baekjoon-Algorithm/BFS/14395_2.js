@@ -19,11 +19,11 @@ const go = () => {
 
     const cands = [
       {
-        result: result + '*', 
+        result: result + '*',
         val : val * val,
       },
       {
-        result: result + '+', 
+        result: result + '+',
         val : val * 2,
       },
       {

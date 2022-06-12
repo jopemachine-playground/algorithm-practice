@@ -30,11 +30,11 @@ const go = () => {
 
     const cands = [
       {
-        opr: '*', 
+        opr: '*',
         val : val * val,
       },
       {
-        opr: '+', 
+        opr: '+',
         // val << 1 넣으면 32 비트 넘을 때 오버플로우 나기 때문에 틀림에 주의.
         val : val * 2,
       },

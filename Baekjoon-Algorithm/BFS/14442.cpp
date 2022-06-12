@@ -37,7 +37,7 @@ constexpr bool LOCAL = true;
 #endif
 
 int N, M, K;
-int dr[] = {0,0,1,-1}; 
+int dr[] = {0,0,1,-1};
 int dc[] = {1,-1,0,0};
 int dist[1001][1001][11];
 int map[1001][1001];

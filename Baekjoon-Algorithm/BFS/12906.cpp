@@ -22,7 +22,7 @@ int solve() {
   for (int i = 0; i < 3; ++i) {
     int strLen;
     cin >> strLen;
-    
+
     if (strLen == 0) {
       start[i] = "";
       continue;

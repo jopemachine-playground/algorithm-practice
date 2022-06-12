@@ -14,7 +14,7 @@ for (let i = 0; i < 1500; ++i) {
   visited[i] = [];
   for (let j = 0; j < 1500; ++j) {
     visited[i][j] = false;
-  } 
+  }
 }
 
 const go = () => {

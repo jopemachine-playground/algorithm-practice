@@ -16,7 +16,7 @@ const [first, ...map]   = fs.readFileSync("/dev/stdin")
 
 const [N, M, K] = first.split(' ').map(str => Number(str));
 
-const visited = 
+const visited =
   Array.from(Array(N), () =>
   Array.from(Array(M), () =>
   Array(K).fill(false))
