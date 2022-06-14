@@ -146,7 +146,7 @@ const setProblem = async problemNumber => {
 };
 
 const searchProblemTags = (paths, input) => {
-  return paths.filter(path => !input || path.includes(input)).map(path => ({
+  return paths.filter(path => !input || path.toLowerCase().includes(input.toLowerCase())).map(path => ({
     name: path.split('Baekjoon-Algorithm/')[1],
     value: path,
   }));
